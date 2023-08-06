@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB25D652-4DF2-95F3-62A3-D287DB73B7B5" name="rbc_obuv1">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:37:39 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="obu_id" id="C914F5DA-F6BA-14CD-BB4C-BE395FE0A99A">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:37:39 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD8CC65C-8696-0892-D005-366E396AC910" referredColumn="9D89BDA8-8301-D674-7CD7-2AC8BBA6DDED"/>
+</associations>
+</Column>
+<Column name="rbc_id" id="1C656F77-7283-D571-AC4B-C321605E9651">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:37:39 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EF50A89-5EF4-8FBB-0957-370485B6F8A7" referredColumn="208FBAF9-FFCC-35F3-9781-605FA245D89C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1430E171-FC7F-A33D-AF49-A2037BAC5457" name="rbc_obuv1_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:37:39 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C914F5DA-F6BA-14CD-BB4C-BE395FE0A99A"/>
+<colUsage columnID="1C656F77-7283-D571-AC4B-C321605E9651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3951D324-0AEB-6527-73DA-66940F0A194F" name="rbc_obuv1_obu_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:37:39 UTC</createdTime>
+<generatorID>D934EB20-7373-ABE9-70B3-6F8C04519A75</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C914F5DA-F6BA-14CD-BB4C-BE395FE0A99A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6088A5FF-19DD-23A4-9CBF-8087F8D0C425" name="rbc_obuv1_rbc_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:37:39 UTC</createdTime>
+<generatorID>D934EB20-7373-ABE9-70B3-6F8C04519A75</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C656F77-7283-D571-AC4B-C321605E9651"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

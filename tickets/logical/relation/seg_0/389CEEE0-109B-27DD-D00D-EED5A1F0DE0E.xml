@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="department_contact_info" directorySegmentName="seg_0" id="389CEEE0-109B-27DD-D00D-EED5A1F0DE0E">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 12:07:28 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="60FCB51B-D87F-0D03-63C5-26194DD4740C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CD98F648-DD5D-7571-8875-81E5F523DBFB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>451693ED-E28C-4CEF-C67A-B9693C95D705</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

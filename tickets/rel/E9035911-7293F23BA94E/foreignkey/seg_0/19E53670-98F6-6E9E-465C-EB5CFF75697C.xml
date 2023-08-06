@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="19E53670-98F6-6E9E-465C-EB5CFF75697C" containerWithKeyObject="A569422C-7972-0C70-E063-FA48E34B7B62" localFKIndex="2FD444C0-558E-553B-EDCD-B5504DDE14AD" name="mileage_discontinuity_leg_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>42E2A58D-BB97-4377-99CA-7AA625594D64</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referredTableLongName>leg</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EEBD8209-3E30-5E28-75FB-AC7889BAEDBC</referredTableID>
+<keyObject>6BE983DF-24FA-1ADA-0C5B-AB674FE48DB3</keyObject>
+<referredKeyID>6BE983DF-24FA-1ADA-0C5B-AB674FE48DB3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

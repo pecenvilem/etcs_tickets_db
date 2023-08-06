@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F66BDC45-6C61-776A-0772-BF11888E4092" name="employee">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F0EE4559-6B2A-61CA-5D81-DBA3A696628F</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="74155B43-DDF3-3632-7CC8-3226F3E1C0F8">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>1707000C-EFC2-C5C0-B927-0C67E970EE08</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F2A74F0C-F7C9-F217-84D5-AEECE7829440">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>1F34B485-ACF4-5D07-1362-9487C1402A80</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="1CD2A223-300F-48E4-73C8-AAE12080BAF9">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>8425552A-B236-8FD3-EB72-CEA60442270A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="process" id="A64ADF08-C926-3827-2B70-1C9B4D7B6F74">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<comment><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></comment>
+<commentInRDBMS><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></commentInRDBMS>
+<generatorID>03009A02-3A7E-9E33-F168-09226C215EDB</generatorID>
+<notes><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></notes>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_position_id" id="8CE08EDB-9B83-742E-A185-969942813897">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F14EE350-26EE-C54F-761A-52E7CED40278</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3E555B5-5590-730C-998A-D97C9C792D9D" referredColumn="22B2F5F6-49B6-81EE-8DD1-7BD10F392846"/>
+</associations>
+</Column>
+<Column name="department_id" id="C9E8628F-318F-3EF0-50A4-86150D374FA3">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>1B57C3B7-7BC3-D6BB-2D6F-195F6B382E14</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F45FD79-C088-3BC0-2E94-436D33013ADF" referredColumn="9F330FA7-234D-CA98-F47B-B72AE5B67269"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C27F41AD-282B-48BB-51FA-A94564699323" name="employee_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>3496ADE9-D809-C17C-DAAF-7EEC1E504997</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74155B43-DDF3-3632-7CC8-3226F3E1C0F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D11F59AE-F8FF-3801-1848-8BF92C3225C8" name="employee_department_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>7E6CA880-733D-8E2A-0636-1FE4138A83D4</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9E8628F-318F-3EF0-50A4-86150D374FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A90C57F3-53D9-3C79-463F-BB173BCEC44C" name="employee_job_position_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F3B562FC-6F5B-37D0-C531-469435E9EB77</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CE08EDB-9B83-742E-A185-969942813897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

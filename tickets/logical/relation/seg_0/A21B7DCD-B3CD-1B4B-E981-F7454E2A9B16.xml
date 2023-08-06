@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rbc_balise" directorySegmentName="seg_0" id="A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:03:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5EADCBE0-4BAA-EAD7-A9A4-ECBC8F32136E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F425CE39-6F48-0C72-37DC-4452F01BB5C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

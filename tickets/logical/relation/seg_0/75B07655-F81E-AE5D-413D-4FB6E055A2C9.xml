@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="point_leg_from" directorySegmentName="seg_0" id="75B07655-F81E-AE5D-413D-4FB6E055A2C9">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 13:43:13 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>7778E50E-57BA-835A-D9BB-BCC1708E6BAA</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>from</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92051CCE-73C3-D927-0FBA-C116BF71B14E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7292DAF2-4554-E683-3022-917C88B69429</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

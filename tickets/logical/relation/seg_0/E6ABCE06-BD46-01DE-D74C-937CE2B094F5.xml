@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="feature_balise" directorySegmentName="seg_0" id="E6ABCE06-BD46-01DE-D74C-937CE2B094F5">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:07:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>1DE5C33D-4ED2-857A-41A8-5F7A7AA9A034</sourcePk>
+<dominantRole>7410E0CE-967B-3F52-9BEF-3E3F44FB2CF0</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7410E0CE-967B-3F52-9BEF-3E3F44FB2CF0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F425CE39-6F48-0C72-37DC-4452F01BB5C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

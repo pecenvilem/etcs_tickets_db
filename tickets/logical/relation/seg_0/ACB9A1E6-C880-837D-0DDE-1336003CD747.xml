@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="incident_leg" directorySegmentName="seg_0" id="ACB9A1E6-C880-837D-0DDE-1336003CD747">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 13:38:31 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7292DAF2-4554-E683-3022-917C88B69429</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="milepost" id="CE5A878C-503C-F832-1C5C-AF6AFDB0F47C">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 13:38:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+</attribute>
+<attribute name="track_number" id="A0DC4876-9857-6CDA-410D-2D013E0F5639">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 13:47:24 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

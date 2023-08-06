@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="884D340F-E477-9F38-8DF0-EA88FE65518D" name="email">
+<createdBy>vilem</createdBy>
+<createdTime>2023-06-26 10:38:38 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item_id" id="B3014EA2-EA69-598D-115D-B1D9874FA475">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 11:16:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="change_key" id="EE57A0C4-BE3D-DD8D-AB98-665A0CE18F01">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 11:16:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D726AA10-D9E4-ABA2-0E4C-21F98E9A672A" name="email PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 11:16:23 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B3014EA2-EA69-598D-115D-B1D9874FA475</attributeRef>
+<attributeRef>EE57A0C4-BE3D-DD8D-AB98-665A0CE18F01</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

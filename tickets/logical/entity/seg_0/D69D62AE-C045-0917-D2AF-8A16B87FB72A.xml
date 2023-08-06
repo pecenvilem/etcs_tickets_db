@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D69D62AE-C045-0917-D2AF-8A16B87FB72A" name="track_number">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:14:56 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="49B0BDCF-074A-4826-D2BD-25FF395CEED0">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:15:04 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number" id="02D82F09-EEFC-57C1-8F4D-2694441DBB5D">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:15:18 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="7EC9F346-2AB6-CA1B-E708-33D642638219">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:15:41 UTC</createdTime>
+<generatorID>4EDB4321-E0F4-116F-CC4F-6CD2B36A5934</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<referedAttribute>F8523269-8864-10F7-7F1F-21BB45F0989F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="578C08BF-70C6-9142-D398-BB69C0A1D253" name="track_number PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 15:15:17 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49B0BDCF-074A-4826-D2BD-25FF395CEED0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

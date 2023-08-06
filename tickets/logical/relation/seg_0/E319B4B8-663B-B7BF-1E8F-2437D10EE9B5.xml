@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_sim" directorySegmentName="seg_0" id="E319B4B8-663B-B7BF-1E8F-2437D10EE9B5">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-20 14:00:04 UTC</createdTime>
+<comment><![CDATA[Responsible contact person]]></comment>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>3496ADE9-D809-C17C-DAAF-7EEC1E504997</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>employee</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0EE4559-6B2A-61CA-5D81-DBA3A696628F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E20F0E04-8B77-89E6-A5E2-59620A06B976</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

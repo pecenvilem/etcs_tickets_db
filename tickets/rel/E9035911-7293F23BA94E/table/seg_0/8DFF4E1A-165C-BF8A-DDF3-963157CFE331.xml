@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DFF4E1A-165C-BF8A-DDF3-963157CFE331" name="comment_relationship">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>34246117-B3EA-41F0-4A9C-FEE43AE12ADD</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0E0F481E-DC76-5486-FE87-05223919A5AB">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>7A6B22D1-A063-459F-DB68-EB18D93896C0</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment_id" id="91D4900B-7917-A3DC-4BF6-9B1CDA34C8F0">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>D7F699F8-16D3-A92B-FAEB-00802131CB08</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03534DEE-0DD3-7BB9-350B-77E7E13F62AC" referredColumn="7B38BEFC-26CA-AB7A-3772-7C8182809850"/>
+</associations>
+</Column>
+<Column name="comment_id2" id="7975D3B0-4B6E-DCD3-5A37-3D469B78E016">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>E9821641-0FEA-BEED-D156-E41EF5F9094B</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBEF02F0-D384-45E4-1DC6-AB1A3AEE9BDC" referredColumn="7B38BEFC-26CA-AB7A-3772-7C8182809850"/>
+</associations>
+</Column>
+<Column name="reference_type_id" id="E9D060C3-4BE7-599E-BBF1-A775EAE6B068">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>F7167FBC-AA68-5BB6-48CD-6B6900794550</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BF69485-A882-4B48-CB3E-A7A28B3A4C8C" referredColumn="EB022690-D7CA-A824-35BD-837224E9BAC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21868D8B-1473-2E58-CF21-70FB0D7B0A76" name="comment_relationship_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>35FA3A4E-52DB-2EF6-8BE8-1B38F6696F48</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E0F481E-DC76-5486-FE87-05223919A5AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEE1B174-7BA8-764E-59AB-87564C2FD057" name="cmt_rel_comment_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>7E26AD65-199D-35FE-8646-989730B211B6</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91D4900B-7917-A3DC-4BF6-9B1CDA34C8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC1BF3D5-2D35-A983-784F-4B41F75EA0DD" name="cmt_rel_comment_FKv1">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>70D3987F-E054-D60E-9C9F-BE31496D9D88</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7975D3B0-4B6E-DCD3-5A37-3D469B78E016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B24B78-B4B5-40CC-B57E-1922A40BF51D" name="cmt_rel_reference_type_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:07:42 UTC</createdTime>
+<generatorID>E29AD4B7-B975-C80A-3A57-C04D7659E2AA</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9D060C3-4BE7-599E-BBF1-A775EAE6B068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

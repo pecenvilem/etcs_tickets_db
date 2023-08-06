@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_change_log" directorySegmentName="seg_0" id="79321929-D3B0-5C6D-2091-8B50A920CF34">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 12:36:31 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>3496ADE9-D809-C17C-DAAF-7EEC1E504997</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>employee</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0EE4559-6B2A-61CA-5D81-DBA3A696628F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3B3DDAC-834C-5F4E-7102-4B4BA5DDE102</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

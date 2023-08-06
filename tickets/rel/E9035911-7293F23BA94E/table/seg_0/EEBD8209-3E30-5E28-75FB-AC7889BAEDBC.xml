@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEBD8209-3E30-5E28-75FB-AC7889BAEDBC" name="leg">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<comment><![CDATA[A section of track between two notes ("tarif points").
+Can also represent station, if 'from' and 'to' atributes are identical.]]></comment>
+<generatorID>7292DAF2-4554-E683-3022-917C88B69429</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5E3B1437-CB14-1C9B-80C5-FDB3E9DE134D">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F8523269-8864-10F7-7F1F-21BB45F0989F</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_tracks" id="53C69F41-05FE-B9D6-B918-CCBBD6EF6377">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>4F15D033-E12A-C4A1-A3BB-711BE0148E54</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point_id2" id="D5EB0BB5-0A2B-E589-EF4F-1357E1EC70A0">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>3935CE1F-FC23-1E5A-0FC3-908A67876F7A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC39236B-D530-E9AD-CCD0-1CAB46B9DE04" referredColumn="E4FD3F38-3DA4-010D-F739-E25E5C24A792"/>
+</associations>
+</Column>
+<Column name="point_id" id="4CDFFAAF-B6AD-CB6D-AC5A-D57D774B426E">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>EC110042-C5B0-1A88-E6BF-B0EC4365D240</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2075B5EA-2AF4-D53F-5146-5764DBD0C0E5" referredColumn="E4FD3F38-3DA4-010D-F739-E25E5C24A792"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BE983DF-24FA-1ADA-0C5B-AB674FE48DB3" name="leg_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>E2F9F232-5049-D1EE-2E20-967A5522EAED</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3B1437-CB14-1C9B-80C5-FDB3E9DE134D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1C79F7E-D371-6513-79C2-7E2BC11B5546" name="leg_point_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>75B07655-F81E-AE5D-413D-4FB6E055A2C9</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CDFFAAF-B6AD-CB6D-AC5A-D57D774B426E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8756A705-4BC3-AFFB-6A39-E3A0CD2677D0" name="leg_point_FKv2">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>E731C2FB-31CB-215B-B948-C8F11D5FC1EC</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5EB0BB5-0A2B-E589-EF4F-1357E1EC70A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

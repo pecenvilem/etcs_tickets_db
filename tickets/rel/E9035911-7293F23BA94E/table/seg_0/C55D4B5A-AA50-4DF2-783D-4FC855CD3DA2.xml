@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C55D4B5A-AA50-4DF2-783D-4FC855CD3DA2" name="vehicle_incident">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vehicle_id" id="CC473DA9-DC45-BD0B-8B62-CD6A68AFD26A">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D482CB40-73D1-276D-1182-0F6DAD01523C" referredColumn="BDF8B817-A0E3-9053-C304-406762520080"/>
+</associations>
+</Column>
+<Column name="incident_id" id="E50D373E-8213-9DFD-3414-BA23364CB238">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE26479A-B088-79E0-9278-851667A6C786" referredColumn="55BD9468-934D-AE8A-BFCA-7BF139651DBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="420F5981-997A-9ECA-E008-636424CA0C77" name="vehicle_incident_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC473DA9-DC45-BD0B-8B62-CD6A68AFD26A"/>
+<colUsage columnID="E50D373E-8213-9DFD-3414-BA23364CB238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="403B6E30-DC1F-4CBD-5519-D1994CD18BE8" name="vehicle_incident_vehicle_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>FF0E5FF9-52AE-AB01-6A05-B52B27FD99BE</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC473DA9-DC45-BD0B-8B62-CD6A68AFD26A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E66ECFF-62EC-106C-F532-EF13B68CE1A5" name="vehicle_incident_incident_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>FF0E5FF9-52AE-AB01-6A05-B52B27FD99BE</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E50D373E-8213-9DFD-3414-BA23364CB238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

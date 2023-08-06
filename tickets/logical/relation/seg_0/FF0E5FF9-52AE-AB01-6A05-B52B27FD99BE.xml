@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vehicle_incident" directorySegmentName="seg_0" id="FF0E5FF9-52AE-AB01-6A05-B52B27FD99BE">
+<createdBy>vilem</createdBy>
+<createdTime>2023-06-26 11:45:19 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A518B00D-065F-82D8-EEBC-CC1CC59ED383</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rbc_obu" directorySegmentName="seg_0" id="D934EB20-7373-ABE9-70B3-6F8C04519A75">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-31 13:32:53 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F5009D01-7E4C-86DA-3087-C6DEF7C78E2B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5EADCBE0-4BAA-EAD7-A9A4-ECBC8F32136E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

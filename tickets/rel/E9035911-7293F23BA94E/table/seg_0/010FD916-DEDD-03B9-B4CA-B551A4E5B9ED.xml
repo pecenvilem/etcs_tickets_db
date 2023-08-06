@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="010FD916-DEDD-03B9-B4CA-B551A4E5B9ED" name="rbc_balise">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rbc_id" id="8248C170-6061-3A3C-226C-CABFA6720BD7">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE251E50-EC3D-6C68-FF8F-A49BFA222AE2" referredColumn="208FBAF9-FFCC-35F3-9781-605FA245D89C"/>
+</associations>
+</Column>
+<Column name="balise_id" id="3962DD1A-C706-222C-8E38-40B051B37C69">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A31E057-20DE-2602-9771-8B2E92F59B33" referredColumn="E08F1BA1-919E-F5DF-0AF4-B52C8723D5A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65AF7A6C-8425-C629-FE0C-F7F69E87DB65" name="rbc_balise_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8248C170-6061-3A3C-226C-CABFA6720BD7"/>
+<colUsage columnID="3962DD1A-C706-222C-8E38-40B051B37C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCE73332-8201-DFBD-A9BC-4C5F6B1607CE" name="rbc_balise_rbc_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8248C170-6061-3A3C-226C-CABFA6720BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6153E97A-4393-7EF0-F6A4-3175CAAB329A" name="rbc_balise_balise_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3962DD1A-C706-222C-8E38-40B051B37C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

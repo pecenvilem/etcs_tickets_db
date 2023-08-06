@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="balise_type_balise" directorySegmentName="seg_0" id="FAD324AB-455D-1427-56BE-1DB7472AA535">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:54:48 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>9D4DEE51-407D-BE22-5E69-5F65B481EC0F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1DDCDB09-9621-0FD6-8D28-96A736DCC91A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F425CE39-6F48-0C72-37DC-4452F01BB5C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="primary_type" id="85B95FE5-C5C9-E1F1-1BAF-8D3C8F0507C2">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:55:12 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

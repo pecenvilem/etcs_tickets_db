@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="054C4FD8-F541-A936-44CB-6A52194C72A4" name="log">
+<createdBy>vilem</createdBy>
+<createdTime>2023-06-26 11:39:24 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="44F56142-B7F1-10AE-C00E-44BF9562DDEB">
+<createdBy>vilem</createdBy>
+<createdTime>2023-07-11 19:45:18 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file_name" id="28E0BB26-11B1-46D5-05C6-201D9C1E4AD4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-07-16 17:13:18 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file" id="DFCC6158-25DF-677D-5308-14E172992094">
+<createdBy>vilem</createdBy>
+<createdTime>2023-07-11 19:45:26 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="downloaded" id="010AF2CC-8CBC-DE41-4C18-DA909362C74C">
+<createdBy>vilem</createdBy>
+<createdTime>2023-07-11 19:49:50 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6C770D7-1199-A4A3-04D2-C9CE4D5AC785" name="log PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-07-11 19:45:25 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44F56142-B7F1-10AE-C00E-44BF9562DDEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

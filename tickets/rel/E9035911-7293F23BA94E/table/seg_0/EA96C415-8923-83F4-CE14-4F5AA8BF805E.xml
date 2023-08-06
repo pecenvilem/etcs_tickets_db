@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA96C415-8923-83F4-CE14-4F5AA8BF805E" name="department_contact_info">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contact_info_id" id="EFBCA73C-C0A4-B7F9-4FD6-20F5C9DF3F18">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23DDB54B-1355-D683-3D32-A2D749B3ED4F" referredColumn="95499CB2-57B1-EF4A-9DF0-AC4E3ABE0A45"/>
+</associations>
+</Column>
+<Column name="department_id" id="1BF28CD3-98BE-3ED3-0B4B-B750103DA3D0">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F6C6E6B-B688-AEA4-03EF-39B9027BEAE5" referredColumn="9F330FA7-234D-CA98-F47B-B72AE5B67269"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C180CA8-6C21-205F-5037-B2813420D089" name="department_contact_info_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBCA73C-C0A4-B7F9-4FD6-20F5C9DF3F18"/>
+<colUsage columnID="1BF28CD3-98BE-3ED3-0B4B-B750103DA3D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BE0AB87-C8D0-1DD8-5589-836ADEDA81A3" name="dept_cntct_info_cntct_info_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>389CEEE0-109B-27DD-D00D-EED5A1F0DE0E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBCA73C-C0A4-B7F9-4FD6-20F5C9DF3F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5354EFFA-2EB1-EA44-EE6F-311CAC6EBC01" name="dept_contact_info_dept_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>389CEEE0-109B-27DD-D00D-EED5A1F0DE0E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BF28CD3-98BE-3ED3-0B4B-B750103DA3D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

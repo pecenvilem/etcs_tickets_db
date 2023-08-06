@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDE7BE79-EFD2-3C4A-E53A-BA9D6A28B061" name="mileage_discontinuity">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 17:07:07 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E12DD0D6-7F3F-2EC2-B4BE-EB76392094A8">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 17:07:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="6FD4AB7B-5049-61BB-257F-D747B86B87E6">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 17:07:29 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="557C6E81-1F90-371E-AD1E-C029C48EE953">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 17:15:49 UTC</createdTime>
+<generatorID>42E2A58D-BB97-4377-99CA-7AA625594D64</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<referedAttribute>F8523269-8864-10F7-7F1F-21BB45F0989F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="972F5BB3-D606-2F83-09D6-609F7997F785" name="mileage_discontinuity PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 17:07:28 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E12DD0D6-7F3F-2EC2-B4BE-EB76392094A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

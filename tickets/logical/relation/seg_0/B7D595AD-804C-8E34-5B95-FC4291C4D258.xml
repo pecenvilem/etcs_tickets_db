@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="screen_recording_incident" directorySegmentName="seg_0" id="B7D595AD-804C-8E34-5B95-FC4291C4D258">
+<createdBy>vilem</createdBy>
+<createdTime>2023-06-26 11:46:58 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA24B17D-2EBB-A398-3681-4FABFE1C0BE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

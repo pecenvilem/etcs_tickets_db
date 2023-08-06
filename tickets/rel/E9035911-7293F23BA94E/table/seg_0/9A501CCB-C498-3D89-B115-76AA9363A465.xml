@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A501CCB-C498-3D89-B115-76AA9363A465" name="comment_comment">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="comment_id" id="4A76B4FB-C096-05D4-61F5-A94D374B21AE">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708768CF-D718-9810-5EDC-853414D5B1DE" referredColumn="7B38BEFC-26CA-AB7A-3772-7C8182809850"/>
+</associations>
+</Column>
+<Column name="comment_id1" id="C64964AB-7B45-83FA-2B23-05866795C8FF">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3774DABB-8BA5-C9D4-26EB-2686EDE7158D" referredColumn="7B38BEFC-26CA-AB7A-3772-7C8182809850"/>
+</associations>
+</Column>
+<Column name="reference_type_id" id="6951DC26-2361-F283-F71C-04C07ED3EB40">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>D608A9F1-EF67-9995-F7C3-DF8D63B8B6F6</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+<associations>
+<colAssociation fkAssociation="2F6AE91E-AE16-3552-AE1E-83340F8B39AC" referredColumn="EB022690-D7CA-A824-35BD-837224E9BAC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="514CB7EA-CA14-7AFE-0B79-8CEAF168BACC" name="comment_comment_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A76B4FB-C096-05D4-61F5-A94D374B21AE"/>
+<colUsage columnID="C64964AB-7B45-83FA-2B23-05866795C8FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56449037-24D2-C17A-CBE2-039AC93AAB66" name="comment_comment_comment_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>06685614-E44A-EEAC-D254-189406DC1F45</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A76B4FB-C096-05D4-61F5-A94D374B21AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BDB815B-7ACC-0AED-F2DD-FEF59050BE45" name="comment_comment_comment_FKv1">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>06685614-E44A-EEAC-D254-189406DC1F45</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C64964AB-7B45-83FA-2B23-05866795C8FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5897514B-FB7E-B643-4C94-0A8C7CB02EE8" name="cmt_cmt_reference_type_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:53:11 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6951DC26-2361-F283-F71C-04C07ED3EB40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

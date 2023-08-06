@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DDCDB09-9621-0FD6-8D28-96A736DCC91A" name="balise_type">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:53:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DBE2D366-7805-659D-A761-8D1E31DC9ED9">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:53:12 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="CFBFD4B8-ECBB-01A2-F3BE-D7AAEA8F55ED">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:53:20 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="B206AD21-FF27-DD39-9FD3-18895A483F6D">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:53:57 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D4DEE51-407D-BE22-5E69-5F65B481EC0F" name="balise_type PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-21 16:53:18 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
+<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBE2D366-7805-659D-A761-8D1E31DC9ED9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

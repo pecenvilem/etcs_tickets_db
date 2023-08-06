@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="013B746D-0310-E2E0-0B73-9311CA549A42" name="balise">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F425CE39-6F48-0C72-37DC-4452F01BB5C5</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E08F1BA1-919E-F5DF-0AF4-B52C8723D5A1">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>2C60A17B-723D-9F68-CFA8-5B8FEEBA66E4</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_pig" id="66F1668D-D7F5-C412-2E63-6E9BE834EBE3">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>E7B90D89-97A5-6F74-C0D2-95BA777CA5FE</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>7</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="user_data" id="D2B2157F-5548-5C99-4ECA-3165344F4959">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F1E8A553-C510-4543-57F2-E749A39655FF</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="balise_group_id" id="8596B22B-6585-9CF9-1550-6566C1C132CA">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>F400335E-AEB3-FC38-9234-5BFF901A3946</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92917767-6BA6-8F65-877E-41391D2B008D" referredColumn="E3CB6F95-EBB7-3E49-3799-76DDFF7168C1"/>
+</associations>
+</Column>
+<Column name="feature_id" id="C822ABDD-574A-EDF3-752C-BA8BD1B0997A">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>72E322FB-921E-E8F8-94DB-2719C4270212</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5822BFB-FCB3-8A9F-555B-1BFF35529EE2" referredColumn="8275B06E-FA0F-39F5-34BE-BE2B7AC17C95"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3757F9D1-C4EA-77A2-28E2-24DAA96F8748" name="balise_PK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>FBCE7046-C2BB-933C-0AAB-F4A8D8D5B2E8</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E08F1BA1-919E-F5DF-0AF4-B52C8723D5A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="828A2D18-86DF-969F-5256-2C30AEECF058" name="balise__IDX">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E6ABCE06-BD46-01DE-D74C-937CE2B094F5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C822ABDD-574A-EDF3-752C-BA8BD1B0997A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8934BA75-B6C7-65B6-45C2-43431D751C2A" name="balise_balise_group_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>78FFAD47-99BC-D77E-0003-985152BD9A72</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8596B22B-6585-9CF9-1550-6566C1C132CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D5E34D9-48EF-1DFC-6D57-738C0C8134AF" name="balise_feature_FK">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 12:09:45 UTC</createdTime>
+<generatorID>E6ABCE06-BD46-01DE-D74C-937CE2B094F5</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C822ABDD-574A-EDF3-752C-BA8BD1B0997A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
