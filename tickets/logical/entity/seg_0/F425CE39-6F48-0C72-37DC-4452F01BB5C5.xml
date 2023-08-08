@@ -4,8 +4,7 @@
 <createdTime>2023-07-21 15:04:19 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,36 +20,38 @@
 <createdTime>2023-07-21 15:04:36 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="n_pig" id="E7B90D89-97A5-6F74-C0D2-95BA777CA5FE">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 15:04:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>7</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="user_data" id="F1E8A553-C510-4543-57F2-E749A39655FF">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-24 07:04:10 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,30 +60,27 @@
 <dataTypeSize>256 CHAR</dataTypeSize>
 <ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="F400335E-AEB3-FC38-9234-5BFF901A3946">
+<Attribute name="id1" id="F400335E-AEB3-FC38-9234-5BFF901A3946">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:05:26 UTC</createdTime>
 <generatorID>78FFAD47-99BC-D77E-0003-985152BD9A72</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <referedAttribute>DDFCE397-C600-EC12-C535-012494EA86BD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="72E322FB-921E-E8F8-94DB-2719C4270212">
+<Attribute name="id3" id="72E322FB-921E-E8F8-94DB-2719C4270212">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-24 08:30:09 UTC</createdTime>
 <generatorID>E6ABCE06-BD46-01DE-D74C-937CE2B094F5</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <referedAttribute>E2D003E8-3ACC-02DF-B7E9-78DD11F391D9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -98,8 +96,7 @@
 <createdTime>2023-07-21 15:04:42 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

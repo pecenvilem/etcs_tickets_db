@@ -4,7 +4,7 @@
 <createdTime>2023-06-26 10:37:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-07-24 11:53:49 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-07-24 11:57:40 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2023-07-16 17:07:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,20 +53,20 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="365D8212-6DF4-1F69-C176-00C0B8E662BC">
+<Attribute name="id2" id="365D8212-6DF4-1F69-C176-00C0B8E662BC">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 14:46:48 UTC</createdTime>
 <generatorID>7AACE9A6-C36D-D2D4-D67F-C5D6D11AC296</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -75,7 +75,7 @@
 <createdTime>2023-07-16 17:07:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

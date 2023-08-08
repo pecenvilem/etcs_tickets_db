@@ -4,7 +4,7 @@
 <createdTime>2023-08-01 14:48:54 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,20 +20,20 @@
 <createdTime>2023-08-01 14:49:02 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="8D53E49B-16AE-B67A-4C63-A396C6C91918">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 14:49:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[e.g. connection loss, OBU malfunction, incorrect driver action]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +46,7 @@
 <createdTime>2023-08-01 14:49:09 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +62,7 @@
 <createdTime>2023-08-01 14:49:32 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

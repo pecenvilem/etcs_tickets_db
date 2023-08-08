@@ -4,8 +4,7 @@
 <createdTime>2023-07-20 15:46:41 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +20,7 @@
 <createdTime>2023-07-20 15:47:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,8 +33,7 @@
 <createdTime>2023-07-20 15:47:31 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,13 +43,12 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9629BEB5-63E0-E7AA-99AF-33307DEEE191" name="role PK">
+<identifier id="9629BEB5-63E0-E7AA-99AF-33307DEEE191" name="job_position PK">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:47:29 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
