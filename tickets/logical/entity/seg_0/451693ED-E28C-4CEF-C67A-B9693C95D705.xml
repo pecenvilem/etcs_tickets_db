@@ -3,9 +3,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:55:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,22 +16,15 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:55:33 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="EE530F31-EAA7-DF16-5C54-BC48427976C3">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:55:39 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,9 +36,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:48:10 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,23 +46,8 @@
 <Attribute name="default_department" id="4E2068E5-C103-9464-9A5C-DB0E79B4DF23">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 12:29:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[when true, the department is only used as a placeholder  in relations requiring department, used with companies whose departments are not stored in database or which dont have any structure, e.g. minor carriers]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="carrier" id="114DC0F7-7F64-C687-1C7B-C98D6C66DB66">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 17:29:44 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -86,9 +58,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:02:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,9 +70,6 @@
 <createdTime>2023-07-21 12:06:21 UTC</createdTime>
 <generatorID>155D1390-87CD-7913-4F06-D6B82B95D09A</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <referedAttribute>A08FA9E8-1526-1078-0273-0ED66F98BCED</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -117,9 +83,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:56:04 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>94CD7392-09A4-D27B-EDAB-A7C69124F459</attributeRef>

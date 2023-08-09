@@ -3,9 +3,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:50:37 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,22 +16,15 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:50:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="DEF54FC7-6084-CF64-173F-6F9CF1678F28">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:50:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -45,9 +35,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:52:32 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,10 +46,8 @@
 <Attribute name="minepost_approximate" id="FA7155E0-6A7F-378E-8674-867451A87F17">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:24:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[indicates wheather the milepost reference of the feature was manually approximately given, otherwise, it is expected to be from an accurate source, e.g. track description system]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -74,9 +59,6 @@
 <createdTime>2023-07-21 13:53:28 UTC</createdTime>
 <generatorID>EB4AA85B-B050-1614-D46C-10E7DE6C7D0A</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <referedAttribute>F8523269-8864-10F7-7F1F-21BB45F0989F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,9 +71,6 @@
 <createdTime>2023-07-21 13:57:04 UTC</createdTime>
 <generatorID>49F8F283-80ED-042C-5D78-394EE9BA1E91</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <referedAttribute>BB2847F8-3E89-5214-2000-AA295215261D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,9 +84,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:50:56 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E2D003E8-3ACC-02DF-B7E9-78DD11F391D9</attributeRef>
