@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1AC7926-E84A-49E3-3388-010FF4622618" name="cause">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-08-01 14:48:54 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BACC17B8-2DB6-206C-7ADA-AF8F214A8B2D" name="mounting_system">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:14:41 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,29 +12,28 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="ECEC0C32-98D8-7D96-EAB4-73D560341BEB">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-08-01 14:49:02 UTC</createdTime>
+<Attribute name="id" id="F242B1C7-5008-DA1B-148D-F8AD6B258BDE">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:14:51 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="8D53E49B-16AE-B67A-4C63-A396C6C91918">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-08-01 14:49:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[e.g. connection loss, OBU malfunction, incorrect driver action]]></commentInRDBMS>
+<Attribute name="name" id="D168A150-1615-8E88-3309-BCD88805200C">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:15:06 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128 CHAR</dataTypeSize>
-<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="description" id="B46ACFB3-FEFF-7396-0149-B23A39411D59">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-08-01 14:49:09 UTC</createdTime>
+<Attribute name="description" id="CF069D59-459D-FD57-C8D4-02129E459740">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:15:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,13 +44,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3DF9E7C4-5135-C41B-7989-8CFB793BAE1D" name="cause PK">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-08-01 14:49:32 UTC</createdTime>
+<identifier id="E2A4C2E8-32F6-22F6-03FB-485A8D0B4886" name="mounting_system PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:15:04 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ECEC0C32-98D8-7D96-EAB4-73D560341BEB</attributeRef>
+<attributeRef>F242B1C7-5008-DA1B-148D-F8AD6B258BDE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

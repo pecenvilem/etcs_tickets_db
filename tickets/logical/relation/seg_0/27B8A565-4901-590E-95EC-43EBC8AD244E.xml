@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="telegram_type_telegram" directorySegmentName="seg_0" id="27B8A565-4901-590E-95EC-43EBC8AD244E">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:16:16 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>45AB0F14-E01A-3E30-5721-9EA09BE1E8A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70E0EF63-FD97-8140-2012-EEC5C09C3DDC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C22DDF5-7E8B-E934-FD5F-A76665BC6395</targetEntity>
+<transferable>true</transferable>
+</Relation>

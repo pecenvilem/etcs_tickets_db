@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C38FC788-4D59-D1D7-936B-F8E5FBC42BAA" name="structured_address">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:04:21 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="country" id="D66461A7-044B-2AF6-E601-6A17CDB925AF">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:04:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[max length accoring to Wikipedia list of Czech names for the states of the world]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>51 CHAR</dataTypeSize>
+<ownDataTypeParameters>51 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="0A121329-3EE8-388D-5877-04A6C89DFA81">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:04:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[longest name for a Czech city
+https://mapy.cz/?source=base&id=1914161#:~:text=Brand%C3%BDs%20nad%20Labem%2DStar%C3%A1%20Boleslav%20je%20obec%20s%202.,p%C3%ADsmeny%20nejdel%C5%A1%C3%AD%20n%C3%A1zev%20%C4%8Cesk%C3%A9%20republiky.]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="027815D8-DA1A-CB37-0156-4C56BBE2F17D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:04:42 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number" id="A2DC0230-C6F9-4CF7-4183-AAAC62A08AF3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:04:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[can contain letters or slashes]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="B3F08622-4050-226F-9A84-39EDBB9FB63B">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:04:42 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="26FBD4F3-D23D-A3DF-0AF8-53DE6EEA8F90">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:05:12 UTC</createdTime>
+<generatorID>99A38AF1-3B74-3B89-7AA4-AC53FC3854AC</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>9981CDE8-DDF4-E3E6-764F-09E34669447B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

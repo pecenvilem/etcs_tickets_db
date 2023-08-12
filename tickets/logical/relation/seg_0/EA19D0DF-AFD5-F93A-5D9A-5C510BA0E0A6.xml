@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="point_track_number" directorySegmentName="seg_0" id="EA19D0DF-AFD5-F93A-5D9A-5C510BA0E0A6">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:40:19 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>7778E50E-57BA-835A-D9BB-BCC1708E6BAA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92051CCE-73C3-D927-0FBA-C116BF71B14E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D69D62AE-C045-0917-D2AF-8A16B87FB72A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C22DDF5-7E8B-E934-FD5F-A76665BC6395" name="telegram">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:09:33 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="776BF3F8-F770-5DB0-B34A-FBDCCFDBC79A">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:09:47 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="default" id="78B600B7-6B44-3879-EF8C-0D012DCA55E1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:14:34 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_data" id="4A96EDEB-2447-FFDE-6218-162A9111ED91">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:09:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tlg_url" id="FA639383-42CA-23D6-109A-68B8340C7B5B">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:09:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="2A391CCE-1C21-C983-75E6-C69B7DF0F3E9">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:15:36 UTC</createdTime>
+<generatorID>14A1263E-C121-1E46-1C9B-B43F7035BD33</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>72E322FB-921E-E8F8-94DB-2719C4270212</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="0CCE8DC3-9BB5-9482-1B8A-1881B62224F6">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:16:16 UTC</createdTime>
+<generatorID>27B8A565-4901-590E-95EC-43EBC8AD244E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>C234DD79-9271-F0F7-77D2-B20C2ABE8FC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE4939EA-51D8-C5A9-A8AA-564F56D807C3" name="telegram PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:09:52 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>776BF3F8-F770-5DB0-B34A-FBDCCFDBC79A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

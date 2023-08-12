@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mounting_system_balise" directorySegmentName="seg_0" id="1D58EAB6-8340-1C81-513B-F5038F2E589C">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:18:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>E2A4C2E8-32F6-22F6-03FB-485A8D0B4886</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BACC17B8-2DB6-206C-7ADA-AF8F214A8B2D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F425CE39-6F48-0C72-37DC-4452F01BB5C5</targetEntity>
+<transferable>true</transferable>
+</Relation>

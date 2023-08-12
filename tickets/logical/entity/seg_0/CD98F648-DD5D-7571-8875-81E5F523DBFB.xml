@@ -21,45 +21,15 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="country" id="C08662FB-C9AE-C7E6-2B77-90EBD9358542">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-20 13:09:55 UTC</createdTime>
+<Attribute name="address" id="CADC8424-B153-26C4-0AAD-2846E15FE9B3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 21:02:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>256 CHAR</dataTypeSize>
 <ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="city" id="3BACDA17-C47C-9083-D9F2-4C945D1F2926">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-20 13:11:10 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>256 CHAR</dataTypeSize>
-<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="street" id="EBC87E4A-EC94-ED72-4EC7-1FC71069D055">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-20 13:11:28 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>256 CHAR</dataTypeSize>
-<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="number" id="89D73C4A-FD9E-6837-8F39-0489DD02373C">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-20 13:11:53 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="remark" id="706A4DD8-CF86-8A2C-A5B7-04D67F2AA9EA">
 <createdBy>Pecen</createdBy>
