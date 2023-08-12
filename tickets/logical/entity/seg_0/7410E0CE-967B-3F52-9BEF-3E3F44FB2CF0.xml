@@ -54,18 +54,6 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id3" id="FC2A41FF-3D0E-FD22-E353-0080DEBEB77D">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 13:53:28 UTC</createdTime>
-<generatorID>EB4AA85B-B050-1614-D46C-10E7DE6C7D0A</generatorID>
-<ownerDesignName>tickets</ownerDesignName>
-<referedAttribute>F8523269-8864-10F7-7F1F-21BB45F0989F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id1" id="5E75ED84-A10E-BBD8-7827-6F8080DA55D0">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:57:04 UTC</createdTime>

@@ -3,9 +3,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:00:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,22 +16,15 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-24 08:37:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="3B006B07-21EF-7B45-D3FE-09801FD7163A">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:00:33 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -46,9 +36,6 @@
 <createdTime>2023-07-24 08:40:02 UTC</createdTime>
 <generatorID>CCA0E82B-AD78-BF8E-77FA-9DDAC497A7AF</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <referedAttribute>09FAEF91-B4BF-C2FC-381D-40EB8316435D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,9 +49,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:03:27 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4F1EB859-FCC9-01E4-B124-634507F128CA</attributeRef>

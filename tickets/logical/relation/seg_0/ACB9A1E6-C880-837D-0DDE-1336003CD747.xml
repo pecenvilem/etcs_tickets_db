@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="incident_leg" directorySegmentName="seg_0" id="ACB9A1E6-C880-837D-0DDE-1336003CD747">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="incident_location" directorySegmentName="seg_0" id="ACB9A1E6-C880-837D-0DDE-1336003CD747">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:38:31 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
@@ -9,7 +9,7 @@
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7292DAF2-4554-E683-3022-917C88B69429</targetEntity>
+<targetEntity>78D871E5-3CCB-C623-B1E5-0C834DE814BB</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">

@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED181EA9-1EE7-1827-BE2D-ACB158752D68" name="carrier">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78D871E5-3CCB-C623-B1E5-0C834DE814BB" name="location">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-09 20:09:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[used as a subtype (polymorph variant) of department, that can be asssigned to a train as its carrier]]></commentInRDBMS>
+<createdTime>2023-08-12 16:43:07 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -13,12 +12,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="2F4FF3EB-CF5F-86A3-D638-78F590BA3134">
+<Attribute name="id" id="38EF6601-521A-BF45-A865-C7B4639C5939">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-09 20:11:07 UTC</createdTime>
-<generatorID>B46DEAAE-9DCC-3DB8-29DE-9E1D72AC3765</generatorID>
+<createdTime>2023-08-12 19:20:20 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -26,14 +23,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="238DF7A1-AF7E-085F-DB6B-FFC9C928DDB5" name="carrier PK">
+<identifier id="C8A6A826-1012-C951-A0E4-88213E590942" name="location PK">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-09 20:17:04 UTC</createdTime>
+<createdTime>2023-08-12 19:20:26 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <pk>true</pk>
-<newElementsIDs>2F4FF3EB-CF5F-86A3-D638-78F590BA3134</newElementsIDs>
 <usedAttributes>
-<attributeRef>2F4FF3EB-CF5F-86A3-D638-78F590BA3134</attributeRef>
+<attributeRef>38EF6601-521A-BF45-A865-C7B4639C5939</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

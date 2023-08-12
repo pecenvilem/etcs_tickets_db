@@ -3,9 +3,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:24 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:52 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -51,9 +42,6 @@
 <createdTime>2023-07-21 17:02:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[16383 - Identity is unknown (only to be used for Linking information)]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -66,9 +54,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:50 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DDFCE397-C600-EC12-C535-012494EA86BD</attributeRef>

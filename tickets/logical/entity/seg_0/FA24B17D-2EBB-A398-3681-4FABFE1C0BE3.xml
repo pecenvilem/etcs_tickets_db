@@ -3,10 +3,6 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 11:39:38 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,10 +16,6 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-16 17:12:19 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -34,37 +26,55 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-16 17:12:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>256 CHAR</dataTypeSize>
 <ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="url" id="693197BA-B0E9-7BB1-A6E7-A9B0DA93D9B2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:30:27 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1024 CHAR</dataTypeSize>
+<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="file" id="AB54230C-0B5E-CD4A-F7FA-E182F012D0E2">
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-16 17:12:29 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start" id="E0CC553F-B08F-5287-AF8D-A20E3358E43A">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:30:58 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end" id="56365C5C-CBCE-2959-028B-FE2B59447A7A">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:30:58 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="captured" id="9542D724-19E0-6197-5F0D-58800E3914A9">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 06:59:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -76,10 +86,6 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-16 17:12:27 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="B1BF15DB-AC07-AFC9-3BC6-9CC8990A7AE7" value="true"/>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C61D7929-15F6-4E48-1905-6CED7DBD30FD</attributeRef>

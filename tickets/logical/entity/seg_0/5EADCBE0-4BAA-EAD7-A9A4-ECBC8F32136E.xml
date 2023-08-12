@@ -3,9 +3,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:57:54 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,22 +16,15 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 15:00:44 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nid_c" id="BFB8B459-74D5-0013-5680-8A27492503AE">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:57:58 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -44,42 +34,43 @@
 <Attribute name="nid_rbc" id="D927B5FE-EB5D-9115-89E5-16C49D7EFF65">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:58:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[16383 - contact last known RBC]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>16382</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 <Attribute name="nid_radio" id="799F7647-F852-F8C9-5C26-C328B0DEDA08">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:58:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>16</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="nid_radio &gt;= 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,16,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="356336B8-D823-33B7-B23A-2A214F168E24">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 15:00:30 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>128</dataTypeSize>
-<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -87,9 +78,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 15:00:56 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E1A66CC8-D93A-4A25-53E9-01E635902D22</attributeRef>

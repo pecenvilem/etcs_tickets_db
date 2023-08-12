@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="054C4FD8-F541-A936-44CB-6A52194C72A4" name="log">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CC17335-0051-A408-635A-C3E27C75C735" name="event">
 <createdBy>vilem</createdBy>
-<createdTime>2023-06-26 11:39:24 UTC</createdTime>
+<createdTime>2023-08-12 12:27:35 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,73 +12,76 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="44F56142-B7F1-10AE-C00E-44BF9562DDEB">
+<Attribute name="id" id="8DF1F569-2A7E-DA60-F71C-FE2F0BCE30C5">
 <createdBy>vilem</createdBy>
-<createdTime>2023-07-11 19:45:18 UTC</createdTime>
+<createdTime>2023-08-12 12:27:46 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="filename" id="7530ADF4-23C2-65EB-7DB4-D10E73EB3AD0">
+<Attribute name="start" id="8B4346FA-C438-8AA3-3297-13A924ED741E">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 12:48:46 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>256 CHAR</dataTypeSize>
-<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="url" id="28E0BB26-11B1-46D5-05C6-201D9C1E4AD4">
-<createdBy>vilem</createdBy>
-<createdTime>2023-07-16 17:13:18 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>1024 CHAR</dataTypeSize>
-<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="file" id="DFCC6158-25DF-677D-5308-14E172992094">
-<createdBy>vilem</createdBy>
-<createdTime>2023-07-11 19:45:26 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT029</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="start" id="010AF2CC-8CBC-DE41-4C18-DA909362C74C">
-<createdBy>vilem</createdBy>
-<createdTime>2023-07-11 19:49:50 UTC</createdTime>
+<createdTime>2023-08-12 12:28:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="end" id="3FF31034-99B6-629D-1ED0-6B1949451C9E">
+<Attribute name="end" id="A6056580-5772-2AE3-6128-8221491CA492">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 12:47:51 UTC</createdTime>
+<createdTime>2023-08-12 12:28:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="42CA20DF-937A-9AE7-9ED5-9204D6FF4B8D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 12:32:10 UTC</createdTime>
+<generatorID>9BB1FE69-9A8D-1C7E-99BB-A00534E1B22C</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="A26ACAA2-53EB-16E4-194C-1F93C2C56692">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 12:38:23 UTC</createdTime>
+<generatorID>AD2BEF8B-0635-8848-8AF2-38C102E5EE96</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="AEA1D643-046C-02D9-A22E-D7E4D31FC353">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 12:41:13 UTC</createdTime>
+<generatorID>E151B4CF-A1CD-27E2-E77B-74F53D12E34B</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>B30E8AB5-C081-3E86-950E-D0C36D8BF45D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A6C770D7-1199-A4A3-04D2-C9CE4D5AC785" name="log PK">
+<identifier id="C304A399-28C7-70EE-A26A-BE864F2AF8E5" name="event PK">
 <createdBy>vilem</createdBy>
-<createdTime>2023-07-11 19:45:25 UTC</createdTime>
+<createdTime>2023-08-12 12:27:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>44F56142-B7F1-10AE-C00E-44BF9562DDEB</attributeRef>
+<attributeRef>8DF1F569-2A7E-DA60-F71C-FE2F0BCE30C5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
