@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_train" directorySegmentName="seg_0" id="9999D5CB-21E2-B93A-22AE-952F86A0CFC7">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 12:11:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[train driver at the time of incident (if there ware a change of the driver enroute)]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<sourcePk>3496ADE9-D809-C17C-DAAF-7EEC1E504997</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0EE4559-6B2A-61CA-5D81-DBA3A696628F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B7106B9A-5F45-4DFC-0EB3-576149D998E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

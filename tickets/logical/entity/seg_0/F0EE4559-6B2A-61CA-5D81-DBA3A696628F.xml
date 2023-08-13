@@ -35,6 +35,7 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-12 20:15:43 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -52,18 +53,28 @@
 <dataTypeSize>300 CHAR</dataTypeSize>
 <ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="exchange_contact_url" id="B9518E5D-5558-AF77-41CC-719DE429132F">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 11:59:12 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1024 BYTE</dataTypeSize>
+<ownDataTypeParameters>1024 BYTE,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="process" id="03009A02-3A7E-9E33-F168-09226C215EDB">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:51:13 UTC</createdTime>
 <comment><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></comment>
-<commentInRDBMS><![CDATA[indicates wheather the employee stands for a automatic proces, e.g. a script detecting incidents]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[indicates wheather the employee stands for an automatic proces, e.g. a script detecting incidents]]></commentInRDBMS>
 <notes><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></notes>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id3" id="F14EE350-26EE-C54F-761A-52E7CED40278">
 <createdBy>Pecen</createdBy>
@@ -74,8 +85,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="1B57C3B7-7BC3-D6BB-2D6F-195F6B382E14">
 <createdBy>Pecen</createdBy>
@@ -86,8 +96,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

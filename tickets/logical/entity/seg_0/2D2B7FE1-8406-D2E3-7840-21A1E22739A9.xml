@@ -21,16 +21,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sr70" id="EEA706EB-C872-B6FA-E96F-CAE87039A6E1">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-12 16:03:09 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="description" id="1EC7B0E4-FA10-38E3-4112-45E91B010B0F">
+<Attribute name="name" id="1EC7B0E4-FA10-38E3-4112-45E91B010B0F">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:03:31 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
@@ -39,6 +30,15 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>128 CHAR</dataTypeSize>
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sr70" id="EEA706EB-C872-B6FA-E96F-CAE87039A6E1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 16:03:09 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

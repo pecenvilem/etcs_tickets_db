@@ -19,16 +19,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>20</dataTypePrecision>
-<ownDataTypeParameters>,20,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="date" id="5DDF0EF9-BEA8-A0A1-A748-21D75D6499C5">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-24 11:57:40 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="number" id="91133390-2827-1232-5A9B-3723E4FB53B2">
@@ -41,12 +31,33 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="date" id="5DDF0EF9-BEA8-A0A1-A748-21D75D6499C5">
+<createdBy>Pecen</createdBy>
+<createdTime>2023-07-24 11:57:40 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id1" id="12688133-6745-3BF8-9AB4-AC460EE22D56">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-09 20:17:19 UTC</createdTime>
 <generatorID>7AACE9A6-C36D-D2D4-D67F-C5D6D11AC296</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <referedAttribute>2F4FF3EB-CF5F-86A3-D638-78F590BA3134</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="C0606927-1150-C9AA-CA86-4D3F8DA84F88">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 12:11:49 UTC</createdTime>
+<generatorID>9999D5CB-21E2-B93A-22AE-952F86A0CFC7</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

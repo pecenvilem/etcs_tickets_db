@@ -39,8 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>1024 CHAR</dataTypeSize>
-<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>1024 BYTE</dataTypeSize>
+<ownDataTypeParameters>1024 BYTE,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="file" id="DFCC6158-25DF-677D-5308-14E172992094">
 <createdBy>vilem</createdBy>

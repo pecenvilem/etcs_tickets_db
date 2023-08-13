@@ -15,6 +15,17 @@
 <discriminatorValue>point</discriminatorValue>
 <completeSubtypes>true</completeSubtypes>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F363394D-840A-56F0-437C-197026FD6D9C">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:27:33 UTC</createdTime>
+<generatorID>1936A877-B85E-D6CB-DE84-1D3EC34B0494</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>38EF6601-521A-BF45-A865-C7B4639C5939</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="name" id="F34C4C69-31C1-8704-F9C1-B004C6D9E53F">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:56 UTC</createdTime>
@@ -24,6 +35,15 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>35 CHAR</dataTypeSize>
 <ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sr70" id="8180BFC8-A613-16C1-D86F-6F0E1901ABE4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:41:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="full_name" id="A726B5FC-7B6D-50EC-D264-D37648E524C2">
 <createdBy>Pecen</createdBy>
@@ -62,7 +82,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
@@ -76,8 +96,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="EE1A7170-289B-E429-31BB-07E16DE2DF0E">
 <createdBy>Pecen</createdBy>
@@ -85,18 +104,6 @@
 <generatorID>1249F474-4127-FC3C-772D-3BD81B9A642E</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <referedAttribute>DA7178F5-B1A1-7C2F-7471-AC5D1972DC60</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id" id="F363394D-840A-56F0-437C-197026FD6D9C">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-12 19:27:33 UTC</createdTime>
-<generatorID>1936A877-B85E-D6CB-DE84-1D3EC34B0494</generatorID>
-<ownerDesignName>tickets</ownerDesignName>
-<referedAttribute>38EF6601-521A-BF45-A865-C7B4639C5939</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -109,6 +116,10 @@
 <createdTime>2023-07-21 13:45:18 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <pk>true</pk>
+<newElementsIDs>F363394D-840A-56F0-437C-197026FD6D9C</newElementsIDs>
+<usedAttributes>
+<attributeRef>F363394D-840A-56F0-437C-197026FD6D9C</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

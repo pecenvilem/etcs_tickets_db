@@ -19,8 +19,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="file_name" id="6A6D60EA-B997-BD86-FFEF-69C35BC403B6">
 <createdBy>vilem</createdBy>
@@ -40,8 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>1024 CHAR</dataTypeSize>
-<ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>1024 BYTE</dataTypeSize>
+<ownDataTypeParameters>1024 BYTE,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="file" id="AB54230C-0B5E-CD4A-F7FA-E182F012D0E2">
 <createdBy>vilem</createdBy>
@@ -65,15 +64,6 @@
 <Attribute name="end" id="56365C5C-CBCE-2959-028B-FE2B59447A7A">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 19:30:58 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="captured" id="9542D724-19E0-6197-5F0D-58800E3914A9">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 06:59:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

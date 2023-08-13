@@ -3,9 +3,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 14:47:15 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
-</engineerTo>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
@@ -15,4 +12,24 @@
 <targetEntity>B7106B9A-5F45-4DFC-0EB3-576149D998E2</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="influence_start" id="528A13BE-D435-8BC3-5B54-2BE931027C5E">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 16:14:18 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="influence_end" id="DBD38CE5-4723-B387-3EC6-1FB6C0259251">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 17:33:21 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
 </Relation>

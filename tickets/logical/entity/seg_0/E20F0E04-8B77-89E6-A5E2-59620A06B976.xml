@@ -12,15 +12,14 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Attribute_184" id="1CB2A445-4CB6-0BBC-C8BA-5F3D407C228E">
+<Attribute name="id" id="1CB2A445-4CB6-0BBC-C8BA-5F3D407C228E">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:29:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>25</dataTypePrecision>
-<ownDataTypeParameters>,25,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="imsi" id="1FCC2D9F-6CC8-8696-628F-1B378BAE0531">
 <createdBy>Pecen</createdBy>
@@ -129,8 +128,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

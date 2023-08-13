@@ -35,6 +35,7 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:54:16 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -44,6 +45,7 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:55:30 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -60,6 +62,7 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 14:55:37 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

@@ -2,6 +2,8 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41724739-347D-F93B-6074-FE776CB03251" name="balise_group">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[nid_c and nid_bg combination declared as unique constraints - this requirement holds for standard operation and incidents database will not track balises which are not deployed in the field
+separate id as primary key is used to avoid the use of a composite primary key]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -47,6 +49,12 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>16382</endValue>
+</rangeDef>
+</listOfRanges>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -57,6 +65,16 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DDFCE397-C600-EC12-C535-012494EA86BD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="55D2C30A-AA1E-5517-6031-6FBE9AE8CBF9" name="bg_identity">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 22:05:40 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<newElementsIDs>F6B9F9E5-DD08-B231-7E60-327C632B8105,EFE64836-7CB9-39D7-7500-EF25C56B7D63</newElementsIDs>
+<usedAttributes>
+<attributeRef>F6B9F9E5-DD08-B231-7E60-327C632B8105</attributeRef>
+<attributeRef>EFE64836-7CB9-39D7-7500-EF25C56B7D63</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

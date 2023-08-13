@@ -51,29 +51,6 @@
 <dataTypeSize>1024 CHAR</dataTypeSize>
 <ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id3" id="2A391CCE-1C21-C983-75E6-C69B7DF0F3E9">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-12 22:15:36 UTC</createdTime>
-<generatorID>14A1263E-C121-1E46-1C9B-B43F7035BD33</generatorID>
-<ownerDesignName>tickets</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>72E322FB-921E-E8F8-94DB-2719C4270212</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="0CCE8DC3-9BB5-9482-1B8A-1881B62224F6">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-12 22:16:16 UTC</createdTime>
-<generatorID>27B8A565-4901-590E-95EC-43EBC8AD244E</generatorID>
-<ownerDesignName>tickets</ownerDesignName>
-<referedAttribute>C234DD79-9271-F0F7-77D2-B20C2ABE8FC6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FE4939EA-51D8-C5A9-A8AA-564F56D807C3" name="telegram PK">

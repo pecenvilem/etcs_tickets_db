@@ -6,8 +6,8 @@
 <sourcePk>45AB0F14-E01A-3E30-5721-9EA09BE1E8A0</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>70E0EF63-FD97-8140-2012-EEC5C09C3DDC</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>5C22DDF5-7E8B-E934-FD5F-A76665BC6395</targetEntity>

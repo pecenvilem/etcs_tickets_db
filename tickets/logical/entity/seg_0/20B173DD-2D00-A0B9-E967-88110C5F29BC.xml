@@ -31,6 +31,17 @@
 <dataTypeSize>128 CHAR</dataTypeSize>
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="description" id="F2C893E0-E7BA-97E6-08B7-64CDEFCC3220">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 18:47:09 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9629BEB5-63E0-E7AA-99AF-33307DEEE191" name="job_position PK">

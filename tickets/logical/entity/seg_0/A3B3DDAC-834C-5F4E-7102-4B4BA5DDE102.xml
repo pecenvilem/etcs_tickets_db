@@ -4,9 +4,6 @@
 <createdTime>2023-07-21 09:57:30 UTC</createdTime>
 <commentInRDBMS><![CDATA[Reference integrity between change_log items and refeerenced records in tracked tables in ensured by table level constaints and triggers.]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 09:57:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,9 +26,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 09:57:41 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -46,9 +37,6 @@
 <createdTime>2023-07-21 11:26:55 UTC</createdTime>
 <commentInRDBMS><![CDATA[id of the altered record]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -58,9 +46,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 09:58:09 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -72,9 +57,6 @@
 <createdTime>2023-07-21 09:58:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[raw field content before the change]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
@@ -86,9 +68,6 @@
 <createdTime>2023-07-21 10:52:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[raw field content after the change]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
@@ -99,9 +78,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 10:53:09 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -111,9 +87,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 10:53:54 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -126,15 +99,11 @@
 <createdTime>2023-07-21 12:36:31 UTC</createdTime>
 <generatorID>79321929-D3B0-5C6D-2091-8B50A920CF34</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -142,9 +111,6 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 09:58:07 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="71DE65DB-D0C1-C6FC-DC3E-21D05F334B56" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>93903F98-E35B-0B06-EC18-FC405F02E39D</attributeRef>

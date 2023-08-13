@@ -63,8 +63,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="15CE5478-4EDF-D798-164C-A28F21BD51A8">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 19:37:23 UTC</createdTime>
+<generatorID>EB4AA85B-B050-1614-D46C-10E7DE6C7D0A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>7F476DC9-946A-8B71-2BC4-2A2EAB55A004</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

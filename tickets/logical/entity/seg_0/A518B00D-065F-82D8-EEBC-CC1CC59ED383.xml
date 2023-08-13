@@ -24,6 +24,7 @@
 <Attribute name="uic" id="48578F2A-D96D-612A-8228-3EDB9CFEC769">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:47:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[check digit sored without a dash]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,8 +41,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

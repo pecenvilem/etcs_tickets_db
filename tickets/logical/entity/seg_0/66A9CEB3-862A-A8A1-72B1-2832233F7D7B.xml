@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D69D62AE-C045-0917-D2AF-8A16B87FB72A" name="track_number">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 15:14:56 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66A9CEB3-862A-A8A1-72B1-2832233F7D7B" name="ticket_relationship">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 16:15:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,43 +12,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="49B0BDCF-074A-4826-D2BD-25FF395CEED0">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 15:15:04 UTC</createdTime>
+<Attribute name="id" id="6CCDA638-004F-1131-554E-F6B467899A7F">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 16:15:45 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="number" id="02D82F09-EEFC-57C1-8F4D-2694441DBB5D">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 15:15:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[e.g. 5, 109c, 1zb]]></commentInRDBMS>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="AC718ABC-4C19-CE5C-FA6B-8986D4E848DF">
+<Attribute name="id1" id="EAE31D48-1EEC-380E-0F1A-065E46B0EC97">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 19:37:23 UTC</createdTime>
-<generatorID>4EDB4321-E0F4-116F-CC4F-6CD2B36A5934</generatorID>
+<createdTime>2023-08-13 16:19:03 UTC</createdTime>
+<generatorID>4394D731-9EC2-5EE4-B20A-FC443D3530AF</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<referedAttribute>7F476DC9-946A-8B71-2BC4-2A2EAB55A004</referedAttribute>
+<referedAttribute>322B1878-1186-77FB-28B3-15DC63977EDA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="995BFE24-05E0-170A-B46E-07818209885C">
+<Attribute name="id2" id="55BA33FF-B8B4-E8E6-0FEA-0B5C8719DADF">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 19:40:19 UTC</createdTime>
-<generatorID>EA19D0DF-AFD5-F93A-5D9A-5C510BA0E0A6</generatorID>
+<createdTime>2023-08-13 16:20:50 UTC</createdTime>
+<generatorID>742DB101-FC3B-2D33-77D5-A9351C2B1B84</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
-<referedAttribute>F363394D-840A-56F0-437C-197026FD6D9C</referedAttribute>
+<referedAttribute>322B1878-1186-77FB-28B3-15DC63977EDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="E511335F-7953-CA90-93DE-23B6470FC00B">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 16:21:40 UTC</createdTime>
+<generatorID>82D26041-007A-4ADE-F88E-7C2E7949FD5C</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>F5C7E2B8-45F3-47DA-FE30-7942DF5155B2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -56,13 +56,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="578C08BF-70C6-9142-D398-BB69C0A1D253" name="track_number PK">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 15:15:17 UTC</createdTime>
+<identifier id="28DE88C8-F489-206D-B1D2-380A886DDAAA" name="ticket_relationship PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-13 16:15:53 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>49B0BDCF-074A-4826-D2BD-25FF395CEED0</attributeRef>
+<attributeRef>6CCDA638-004F-1131-554E-F6B467899A7F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

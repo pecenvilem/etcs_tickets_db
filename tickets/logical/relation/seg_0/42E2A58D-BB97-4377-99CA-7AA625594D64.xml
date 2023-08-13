@@ -3,9 +3,8 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:15:49 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<sourcePk>E2F9F232-5049-D1EE-2E20-967A5522EAED</sourcePk>
+<sourcePk>1DE5C33D-4ED2-857A-41A8-5F7A7AA9A034</sourcePk>
 <identifying>false</identifying>
-<nameOnTarget>leg</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

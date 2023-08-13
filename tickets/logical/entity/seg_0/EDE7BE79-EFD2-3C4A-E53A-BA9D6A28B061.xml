@@ -12,18 +12,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="E12DD0D6-7F3F-2EC2-B4BE-EB76392094A8">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 17:07:22 UTC</createdTime>
+<Attribute name="id" id="24B1A76F-D734-7092-67F4-808B395302B5">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 20:07:45 UTC</createdTime>
+<generatorID>42E2A58D-BB97-4377-99CA-7AA625594D64</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<referedAttribute>E2D003E8-3ACC-02DF-B7E9-78DD11F391D9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="value" id="6FD4AB7B-5049-61BB-257F-D747B86B87E6">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 17:07:29 UTC</createdTime>
+<Attribute name="value" id="E1778D1F-BC1D-FEC2-850D-825B894280EC">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 20:10:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,13 +36,14 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="972F5BB3-D606-2F83-09D6-609F7997F785" name="mileage_discontinuity PK">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 17:07:28 UTC</createdTime>
+<identifier id="39714439-B28B-226B-61C8-DD676978F617" name="mileage_discontinuity PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-12 20:07:48 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <pk>true</pk>
+<newElementsIDs>24B1A76F-D734-7092-67F4-808B395302B5</newElementsIDs>
 <usedAttributes>
-<attributeRef>E12DD0D6-7F3F-2EC2-B4BE-EB76392094A8</attributeRef>
+<attributeRef>24B1A76F-D734-7092-67F4-808B395302B5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
