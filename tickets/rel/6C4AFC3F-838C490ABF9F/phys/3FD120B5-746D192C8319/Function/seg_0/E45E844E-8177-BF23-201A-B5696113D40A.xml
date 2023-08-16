@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="verify_check_digit" directorySegmentName="seg_0" id="E45E844E-8177-BF23-201A-B5696113D40A">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-16 21:09:04 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<source>create or replace function verify_check_digit
+        (engine_id_numeric IN NUMBER) return NUMBER DETERMINISTIC
+    as
+        engine_id CHAR := to_char(engine_id_numeric);
+    begin
+        if compute_check_character(substr(engine_id, 0, 6)) = substr(engine_id, 7, 1) then
+            return 1;
+        else
+            return 0;
+        end if;
+end verify_check_digit;</source>
+</FunctionOracle>

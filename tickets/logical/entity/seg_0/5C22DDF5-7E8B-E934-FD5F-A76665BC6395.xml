@@ -2,7 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C22DDF5-7E8B-E934-FD5F-A76665BC6395" name="telegram">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[user_data and tlg_url can be empty, if tlegram record is only used to describe a telegram type without the actual data]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +20,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +32,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:14:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -35,6 +45,10 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -45,6 +59,10 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -57,6 +75,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:52 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>776BF3F8-F770-5DB0-B34A-FBDCCFDBC79A</attributeRef>

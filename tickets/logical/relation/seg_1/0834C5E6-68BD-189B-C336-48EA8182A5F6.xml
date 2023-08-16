@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="location_track_number" directorySegmentName="seg_0" id="EA19D0DF-AFD5-F93A-5D9A-5C510BA0E0A6">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employee_contact" directorySegmentName="seg_1" id="0834C5E6-68BD-189B-C336-48EA8182A5F6">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 19:40:19 UTC</createdTime>
+<createdTime>2023-08-16 18:45:41 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
 <item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
 </engineerTo>
-<sourcePk>C8A6A826-1012-C951-A0E4-88213E590942</sourcePk>
+<sourcePk>3496ADE9-D809-C17C-DAAF-7EEC1E504997</sourcePk>
 <identifying>false</identifying>
+<nameOnTarget>employee</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>78D871E5-3CCB-C623-B1E5-0C834DE814BB</sourceEntity>
+<sourceEntity>F0EE4559-6B2A-61CA-5D81-DBA3A696628F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>D69D62AE-C045-0917-D2AF-8A16B87FB72A</targetEntity>
+<targetEntity>2412D315-B65A-FB09-57CE-8FC587637D4F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 </Relation>

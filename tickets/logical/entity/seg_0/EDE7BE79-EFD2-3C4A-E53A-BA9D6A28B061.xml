@@ -3,6 +3,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:07:07 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2023-08-12 20:07:45 UTC</createdTime>
 <generatorID>42E2A58D-BB97-4377-99CA-7AA625594D64</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <referedAttribute>E2D003E8-3ACC-02DF-B7E9-78DD11F391D9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,11 +33,17 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 20:10:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>3</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="mileage_discontinuity &gt;= 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -40,6 +52,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 20:07:48 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <newElementsIDs>24B1A76F-D734-7092-67F4-808B395302B5</newElementsIDs>
 <usedAttributes>

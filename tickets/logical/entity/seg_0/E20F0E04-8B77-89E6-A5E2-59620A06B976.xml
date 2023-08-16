@@ -3,6 +3,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:19:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:29:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,28 +31,43 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:19:43 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="imsi &gt;= 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="iccid" id="7D78FE5D-7195-588A-D3B9-49605802DCD8">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:22:05 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>22</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="iccid &gt;= 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,22,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="msisdn" id="EB8E8103-76B9-0AB5-D506-4F0F7B686251">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 12:55:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -57,6 +78,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:29:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -67,6 +91,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:30:05 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,6 +105,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:31:02 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,6 +119,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:35:26 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -100,6 +133,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:41:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -111,6 +147,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:41:58 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -123,6 +162,9 @@
 <createdTime>2023-07-20 14:00:04 UTC</createdTime>
 <generatorID>E319B4B8-663B-B7BF-1E8F-2437D10EE9B5</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -136,6 +178,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:19:58 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>1CB2A445-4CB6-0BBC-C8BA-5F3D407C228E</attributeRef>

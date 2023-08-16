@@ -3,6 +3,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 11:37:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,6 +23,9 @@
 <createdTime>2023-08-12 19:27:33 UTC</createdTime>
 <generatorID>1936A877-B85E-D6CB-DE84-1D3EC34B0494</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <referedAttribute>38EF6601-521A-BF45-A865-C7B4639C5939</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,6 +36,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:56 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -40,6 +49,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 19:41:45 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -49,6 +61,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 14:52:53 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -59,6 +74,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -69,6 +87,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:40 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -79,12 +100,18 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:04:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>3</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="milepost &gt;= 0 OR milepost IS NULL"/>
+</checkConstraint>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id3" id="32FC69E1-6AB5-AB84-3D22-6D9BFD2D84F6">
@@ -92,6 +119,9 @@
 <createdTime>2023-08-01 15:04:06 UTC</createdTime>
 <generatorID>5551FAA4-32AB-59BE-B1FD-4B47B57FBFE7</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <referedAttribute>EB454245-016D-3B76-A04D-3BF27F1970C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -103,6 +133,9 @@
 <createdTime>2023-08-01 15:11:30 UTC</createdTime>
 <generatorID>1249F474-4127-FC3C-772D-3BD81B9A642E</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <referedAttribute>DA7178F5-B1A1-7C2F-7471-AC5D1972DC60</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -115,6 +148,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:18 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <newElementsIDs>F363394D-840A-56F0-437C-197026FD6D9C</newElementsIDs>
 <usedAttributes>

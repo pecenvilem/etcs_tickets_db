@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="compute_check_digit" directorySegmentName="seg_0" id="61AC16B3-1494-ACE4-5EBE-C43CC996D272">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-16 21:10:34 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<source>create or replace function compute_check_digit
+        (engine_id_numeric IN NUMBER) return NUMBER
+    as
+        engine_id := to_char(engine_id_numeric);
+        multiplicators CHAR(6) := &apos;121212&apos;;
+        sum_of_digits NUMBER := 0;
+        string_length NUMBER := 6;
+        current_product NUMBER;
+        remainder NUMBER;
+    begin
+        for i in 1..string_length loop
+            current_product := to_number(substr(engine_id, i, 1))
+                * to_number(substr(multiplicators, i, 1));
+            if current_product &lt; 10 then
+                sum_of_digits := sum_of_digits + current_product;
+            else
+                sum_of_digits := sum_of_digits + mod(current_product, 10) + 1;
+            end if;
+        end loop;
+        remainder := mod(sum_of_digits, 10);
+        if remainder = 0 then
+            return remainder;
+        else
+            return 10 - remainder;
+        end if;
+end compute_check_digit;</source>
+</FunctionOracle>
