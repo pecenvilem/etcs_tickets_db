@@ -1,20 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="department_vehicle" directorySegmentName="seg_0" id="EAFB6829-7B88-1C78-8FB3-F4C8725386CA">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="carrier_vehicle" directorySegmentName="seg_0" id="EAFB6829-7B88-1C78-8FB3-F4C8725386CA">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 12:05:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="60FCB51B-D87F-0D03-63C5-26194DD4740C" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <sourcePk>86485223-B9AA-EB80-5EFF-64A0C232BF05</sourcePk>
 <identifying>false</identifying>
-<nameOnTarget>department</nameOnTarget>
+<nameOnTarget>carrier</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>451693ED-E28C-4CEF-C67A-B9693C95D705</sourceEntity>
+<sourceEntity>ED181EA9-1EE7-1827-BE2D-ACB158752D68</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>A518B00D-065F-82D8-EEBC-CC1CC59ED383</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>

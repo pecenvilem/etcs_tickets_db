@@ -5,7 +5,7 @@
 <commentInRDBMS><![CDATA[user_data and tlg_url can be empty, if tlegram record is only used to describe a telegram type without the actual data]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <createdTime>2023-08-12 22:09:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,22 +31,24 @@
 <Attribute name="default" id="78B600B7-6B44-3879-EF8C-0D012DCA55E1">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:14:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[for fixed balises, the one associated telegram must be marked as default
+ensure by trigger]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="user_data" id="4A96EDEB-2447-FFDE-6218-162A9111ED91">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +62,7 @@
 <createdTime>2023-08-12 22:09:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +78,7 @@
 <createdTime>2023-08-12 22:09:52 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

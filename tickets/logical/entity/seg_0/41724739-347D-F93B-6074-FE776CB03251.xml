@@ -5,6 +5,9 @@
 <commentInRDBMS><![CDATA[nid_c and nid_bg combination declared as unique constraints - this requirement holds for standard operation and incidents database will not track balises which are not deployed in the field
 separate id as primary key is used to avoid the use of a composite primary key]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -18,6 +21,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -27,6 +33,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:52 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -44,6 +53,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdTime>2023-07-21 17:02:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[16383 - Identity is unknown (only to be used for Linking information)]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -62,6 +74,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:50 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DDFCE397-C600-EC12-C535-012494EA86BD</attributeRef>
@@ -71,6 +86,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:05:40 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <newElementsIDs>F6B9F9E5-DD08-B231-7E60-327C632B8105,EFE64836-7CB9-39D7-7500-EF25C56B7D63</newElementsIDs>
 <usedAttributes>
 <attributeRef>F6B9F9E5-DD08-B231-7E60-327C632B8105</attributeRef>

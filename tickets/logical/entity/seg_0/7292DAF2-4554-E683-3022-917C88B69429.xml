@@ -6,7 +6,7 @@
 Can also represent station, if 'from' and 'to' atributes are identical.]]></comment>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,7 +23,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <generatorID>D03FB67F-3FB0-B3A4-2F40-9691A3E09236</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>38EF6601-521A-BF45-A865-C7B4639C5939</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,7 +36,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdTime>2023-07-21 13:44:31 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,40 +47,32 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 </checkConstraint>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="milepost_a" id="208DE6B0-DD36-A649-9CE4-62E4D069E1F4">
+<Attribute name="milepost_a" id="07A93915-742C-7FD0-369F-E43EB4CAEF7C">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 19:39:22 UTC</createdTime>
+<createdTime>2023-08-17 21:36:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>3</dataTypeScale>
-<checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="milepost_a &gt;= 0"/>
-</checkConstraint>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 </Attribute>
-<Attribute name="milepost_b" id="7FF9F82C-C486-34E9-ADFB-388BAD702C3C">
+<Attribute name="milepost_b" id="1DD5D62E-780C-986A-5995-9D73858C8583">
 <createdBy>vilem</createdBy>
-<createdTime>2023-08-12 19:39:24 UTC</createdTime>
+<createdTime>2023-08-17 21:35:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>3</dataTypeScale>
-<checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="milepost_b &gt;= 0"/>
-</checkConstraint>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="339EF5B2-72F3-356D-522D-24A64D17B2D8">
@@ -89,7 +81,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <generatorID>E731C2FB-31CB-215B-B948-C8F11D5FC1EC</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>F363394D-840A-56F0-437C-197026FD6D9C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,7 +95,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <generatorID>75B07655-F81E-AE5D-413D-4FB6E055A2C9</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>F363394D-840A-56F0-437C-197026FD6D9C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -118,7 +110,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdTime>2023-07-21 13:42:08 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>7F476DC9-946A-8B71-2BC4-2A2EAB55A004</newElementsIDs>

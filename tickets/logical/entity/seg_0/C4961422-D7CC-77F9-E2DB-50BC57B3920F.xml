@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4961422-D7CC-77F9-E2DB-50BC57B3920F" name="point_state">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4961422-D7CC-77F9-E2DB-50BC57B3920F" name="station_state">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:10:37 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:10:48 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:10:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -37,6 +46,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:10:56 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DA7178F5-B1A1-7C2F-7471-AC5D1972DC60</attributeRef>

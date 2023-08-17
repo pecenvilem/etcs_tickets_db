@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="point_state_point" directorySegmentName="seg_0" id="1249F474-4127-FC3C-772D-3BD81B9A642E">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="station_state_station" directorySegmentName="seg_0" id="1249F474-4127-FC3C-772D-3BD81B9A642E">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:11:30 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <sourcePk>5F743B14-56DD-0146-BFAA-AC4181B0A32B</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

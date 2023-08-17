@@ -4,7 +4,7 @@
 <createdTime>2023-06-26 10:38:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-07-12 20:15:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-08-09 20:20:51 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2023-07-12 20:15:43 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,11 +62,12 @@
 <notes><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></notes>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id3" id="F14EE350-26EE-C54F-761A-52E7CED40278">
@@ -75,7 +76,7 @@
 <generatorID>F3B562FC-6F5B-37D0-C531-469435E9EB77</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>D1BB37FA-D2D3-7C6B-671E-12B0D5C8BEB9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,7 +90,7 @@
 <generatorID>7E6CA880-733D-8E2A-0636-1FE4138A83D4</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,7 +105,7 @@
 <createdTime>2023-07-12 20:15:41 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

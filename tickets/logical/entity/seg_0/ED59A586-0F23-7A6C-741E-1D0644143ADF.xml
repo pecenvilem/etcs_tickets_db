@@ -3,6 +3,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 10:37:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-11 18:21:14 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-11 18:12:16 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -34,17 +43,25 @@
 <Attribute name="has_departments" id="A6D8AE83-3EC7-F5CB-FEAB-E25C08F01618">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:29:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[if false (organization has no departments), there must be exactly one department associated with this organiztion and it must me marked as default department
+esure by trigger]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="abbreviation" id="4B9F9F21-9B63-A593-1DC1-DCD4B51D4BAA">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:03:04 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,6 +75,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-11 18:21:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A08FA9E8-1526-1078-0273-0ED66F98BCED</attributeRef>

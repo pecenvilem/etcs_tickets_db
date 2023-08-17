@@ -6,7 +6,7 @@
 start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdTime>2023-08-12 12:27:46 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,11 +34,12 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdTime>2023-08-12 12:28:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="end" id="A6056580-5772-2AE3-6128-8221491CA492">
@@ -46,7 +47,7 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdTime>2023-08-12 12:28:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +61,7 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <generatorID>9BB1FE69-9A8D-1C7E-99BB-A00534E1B22C</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +75,7 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <generatorID>AD2BEF8B-0635-8848-8AF2-38C102E5EE96</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,7 +89,7 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <generatorID>E151B4CF-A1CD-27E2-E77B-74F53D12E34B</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <referedAttribute>B30E8AB5-C081-3E86-950E-D0C36D8BF45D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,7 +104,7 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdTime>2023-08-12 12:27:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
