@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="location_track_number" directorySegmentName="seg_0" id="EA19D0DF-AFD5-F93A-5D9A-5C510BA0E0A6">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="location_track" directorySegmentName="seg_0" id="EA19D0DF-AFD5-F93A-5D9A-5C510BA0E0A6">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 19:40:19 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
 <sourcePk>C8A6A826-1012-C951-A0E4-88213E590942</sourcePk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<nameOnTarget>location_id</nameOnTarget>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>78D871E5-3CCB-C623-B1E5-0C834DE814BB</sourceEntity>

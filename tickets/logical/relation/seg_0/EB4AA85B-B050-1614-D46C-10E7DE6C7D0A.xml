@@ -1,17 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="leg_feature" directorySegmentName="seg_0" id="EB4AA85B-B050-1614-D46C-10E7DE6C7D0A">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="track_feature" directorySegmentName="seg_0" id="EB4AA85B-B050-1614-D46C-10E7DE6C7D0A">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:53:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
-<sourcePk>E2F9F232-5049-D1EE-2E20-967A5522EAED</sourcePk>
+<engineerTo>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
+</engineerTo>
+<sourcePk>578C08BF-70C6-9142-D398-BB69C0A1D253</sourcePk>
 <identifying>false</identifying>
-<nameOnTarget>leg</nameOnTarget>
+<nameOnTarget>track_id</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>78D871E5-3CCB-C623-B1E5-0C834DE814BB</sourceEntity>
+<sourceEntity>D69D62AE-C045-0917-D2AF-8A16B87FB72A</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>7410E0CE-967B-3F52-9BEF-3E3F44FB2CF0</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>

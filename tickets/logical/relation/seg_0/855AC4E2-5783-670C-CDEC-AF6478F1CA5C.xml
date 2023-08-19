@@ -4,10 +4,11 @@
 <createdTime>2023-07-31 13:32:03 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
 <sourcePk>15CFB3C7-D503-D5D7-AC39-ED429A5231F7</sourcePk>
 <identifying>false</identifying>
+<nameOnTarget>kmc_id</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
@@ -15,5 +16,4 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>F5009D01-7E4C-86DA-3087-C6DEF7C78E2B</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>

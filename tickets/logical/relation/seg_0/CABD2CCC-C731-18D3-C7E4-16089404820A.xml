@@ -3,6 +3,11 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 11:44:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
+</engineerTo>
+<sourcePk>E6FF87D9-A416-DE9E-B8B8-4136F6AB3D8E</sourcePk>
+<targetPk>741D22D2-DF1F-08CF-1284-D57C545B1276</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
@@ -11,5 +16,4 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>

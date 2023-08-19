@@ -4,13 +4,17 @@
 <createdTime>2023-08-01 14:47:36 UTC</createdTime>
 <commentInRDBMS><![CDATA[sequence of locations assigned to a train represents the route of given train]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
+</engineerTo>
+<sourcePk>C8A6A826-1012-C951-A0E4-88213E590942</sourcePk>
+<targetPk>E05993C5-8C4F-3C2D-F147-58BBB7EF4382</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>B7106B9A-5F45-4DFC-0EB3-576149D998E2</sourceEntity>
+<sourceEntity>78D871E5-3CCB-C623-B1E5-0C834DE814BB</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>78D871E5-3CCB-C623-B1E5-0C834DE814BB</targetEntity>
+<targetEntity>B7106B9A-5F45-4DFC-0EB3-576149D998E2</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>

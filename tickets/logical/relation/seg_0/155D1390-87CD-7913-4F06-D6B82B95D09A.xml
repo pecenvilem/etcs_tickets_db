@@ -4,11 +4,11 @@
 <createdTime>2023-07-21 12:06:21 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="60FCB51B-D87F-0D03-63C5-26194DD4740C" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
 <sourcePk>DB13ACE8-9B0B-D577-4E9A-EB8AB0D19DAB</sourcePk>
 <identifying>false</identifying>
-<nameOnTarget>organization</nameOnTarget>
+<nameOnTarget>organization_id</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
@@ -16,5 +16,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>451693ED-E28C-4CEF-C67A-B9693C95D705</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>

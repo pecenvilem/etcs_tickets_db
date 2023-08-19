@@ -1,11 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comment_relationship_from" directorySegmentName="seg_0" id="7E26AD65-199D-35FE-8646-989730B211B6">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comment_comment_relationship_from" directorySegmentName="seg_0" id="7E26AD65-199D-35FE-8646-989730B211B6">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:05:32 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
+</engineerTo>
 <sourcePk>E1B8D51C-67B4-B2B0-1A75-045E06C89E06</sourcePk>
+<targetPk>35FA3A4E-52DB-2EF6-8BE8-1B38F6696F48</targetPk>
 <identifying>false</identifying>
-<nameOnTarget>referencing_comment</nameOnTarget>
+<nameOnTarget>referencing_comment_id</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
@@ -13,5 +17,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>34246117-B3EA-41F0-4A9C-FEE43AE12ADD</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>

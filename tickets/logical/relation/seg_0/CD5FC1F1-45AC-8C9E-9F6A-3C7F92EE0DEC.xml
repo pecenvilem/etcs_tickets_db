@@ -1,11 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obu_sim" directorySegmentName="seg_0" id="CD5FC1F1-45AC-8C9E-9F6A-3C7F92EE0DEC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sim_obu" directorySegmentName="seg_0" id="CD5FC1F1-45AC-8C9E-9F6A-3C7F92EE0DEC">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:33:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[assigned and unassigned sequence ensured by table level constraint]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
+<sourcePk>FC3530A5-37C8-9F47-42A7-4FED1538502B</sourcePk>
+<targetPk>0DCC7364-9BD6-1C78-55D3-0C7FA8DBB67E</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
@@ -14,19 +17,19 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>F5009D01-7E4C-86DA-3087-C6DEF7C78E2B</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <attribute name="assigned" id="098226FB-C5A2-A106-B8FE-BF6097E775C6">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:34:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 <attribute name="unassigned" id="8EC2883B-98A0-2A28-9760-B082B2F7539F">
@@ -34,12 +37,13 @@
 <createdTime>2023-07-31 13:34:27 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 <attribute name="history_not_tracked" id="5C6CDDCB-910F-4EF2-110F-5C6610BC4B68">
@@ -47,13 +51,13 @@
 <createdTime>2023-07-31 13:34:28 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="E9035911-F755-AC8A-D0EB-7293F23BA94E" value="true"/>
+<item key="6CE311D5-2411-7C82-1EDB-AEE0F04D21D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 </attributes>
 </Relation>
