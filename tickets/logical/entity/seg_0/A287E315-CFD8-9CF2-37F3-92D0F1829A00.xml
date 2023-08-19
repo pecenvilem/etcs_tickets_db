@@ -3,6 +3,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:41:44 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,11 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>tckt_state</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="7DECFA4D-8918-0E3F-AEBC-48225539B934">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:41:50 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +32,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:41:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -35,6 +45,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:42:17 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,9 +61,24 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:41:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7DECFA4D-8918-0E3F-AEBC-48225539B934</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D841A201-8076-857B-D800-4721F9278D5F" name="name">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 17:36:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
+<newElementsIDs>8CB7E3BD-AFCB-3AA0-5C46-E7FE3BC59175</newElementsIDs>
+<usedAttributes>
+<attributeRef>8CB7E3BD-AFCB-3AA0-5C46-E7FE3BC59175</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

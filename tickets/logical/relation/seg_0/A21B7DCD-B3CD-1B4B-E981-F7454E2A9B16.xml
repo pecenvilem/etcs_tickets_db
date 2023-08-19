@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rbc_balise_group" directorySegmentName="seg_0" id="A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rbc_bg" directorySegmentName="seg_0" id="A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 15:03:10 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

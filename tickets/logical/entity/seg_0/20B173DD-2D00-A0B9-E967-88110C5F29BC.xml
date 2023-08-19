@@ -3,6 +3,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:46:41 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:47:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:47:31 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -35,6 +44,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 18:47:09 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,9 +60,24 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 15:47:29 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D1BB37FA-D2D3-7C6B-671E-12B0D5C8BEB9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6E403456-2F49-144C-ED97-47547E4BCA08" name="name">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 15:19:32 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
+<newElementsIDs>AB09FF2C-A921-7200-02DB-3A6B356529B8</newElementsIDs>
+<usedAttributes>
+<attributeRef>AB09FF2C-A921-7200-02DB-3A6B356529B8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

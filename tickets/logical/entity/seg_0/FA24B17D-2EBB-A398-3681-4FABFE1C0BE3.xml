@@ -8,7 +8,7 @@ both are mandatory, can't be the same
 either filename, url or file field must be present, ensure by table level constraint]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,13 +18,14 @@ either filename, url or file field must be present, ensure by table level constr
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>scr_rec</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="C61D7929-15F6-4E48-1905-6CED7DBD30FD">
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-16 17:12:19 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,7 +37,7 @@ either filename, url or file field must be present, ensure by table level constr
 <createdTime>2023-07-16 17:12:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,7 +51,7 @@ either filename, url or file field must be present, ensure by table level constr
 <createdTime>2023-08-12 19:30:27 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,7 +65,7 @@ either filename, url or file field must be present, ensure by table level constr
 <createdTime>2023-07-16 17:12:29 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,7 +78,7 @@ either filename, url or file field must be present, ensure by table level constr
 <createdTime>2023-08-12 19:30:58 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,7 +90,7 @@ either filename, url or file field must be present, ensure by table level constr
 <createdTime>2023-08-12 19:30:58 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -103,7 +104,7 @@ either filename, url or file field must be present, ensure by table level constr
 <createdTime>2023-07-16 17:12:27 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

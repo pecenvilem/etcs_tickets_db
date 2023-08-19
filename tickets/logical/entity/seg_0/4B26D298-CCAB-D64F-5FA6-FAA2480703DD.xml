@@ -3,6 +3,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 12:31:16 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,11 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>inc_type</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="465836FD-E4A1-6B92-94E7-E4059D4B9DB3">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 12:31:58 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +32,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 12:32:07 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -35,6 +45,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 12:32:19 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,9 +61,24 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 12:32:06 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>465836FD-E4A1-6B92-94E7-E4059D4B9DB3</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B22192F7-8250-99AC-A3D0-ACD9F2D08CAA" name="name">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 15:19:16 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
+<newElementsIDs>E9091F2B-AF6A-33FA-EBDD-F599085BAE4A</newElementsIDs>
+<usedAttributes>
+<attributeRef>E9091F2B-AF6A-33FA-EBDD-F599085BAE4A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

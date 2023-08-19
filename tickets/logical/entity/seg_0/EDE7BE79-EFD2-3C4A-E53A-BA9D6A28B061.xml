@@ -4,7 +4,7 @@
 <createdTime>2023-07-21 17:07:07 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>mlg_disc</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="24B1A76F-D734-7092-67F4-808B395302B5">
 <createdBy>vilem</createdBy>
@@ -21,7 +22,7 @@
 <generatorID>42E2A58D-BB97-4377-99CA-7AA625594D64</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <referedAttribute>E2D003E8-3ACC-02DF-B7E9-78DD11F391D9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +35,7 @@
 <createdTime>2023-08-12 20:10:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,7 +43,7 @@
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>3</dataTypeScale>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="mileage_discontinuity &gt;= 0"/>
+<implementationDef dbType="Generic Constraint" definition="value &gt;= 0"/>
 </checkConstraint>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 </Attribute>
@@ -53,7 +54,7 @@
 <createdTime>2023-08-12 20:07:48 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>24B1A76F-D734-7092-67F4-808B395302B5</newElementsIDs>

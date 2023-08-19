@@ -3,6 +3,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 16:22:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,11 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>inc_rel</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="34270E54-7FE1-0CEA-8AC8-045E3BBC16AF">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 16:22:49 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -26,6 +33,9 @@
 <createdTime>2023-08-13 16:23:26 UTC</createdTime>
 <generatorID>01CB1855-54E0-ED89-A320-6615E12BE684</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <referedAttribute>C9A64EFC-1FA2-9AFE-4A82-A939C4CFF1E5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -37,6 +47,9 @@
 <createdTime>2023-08-13 16:24:00 UTC</createdTime>
 <generatorID>17B9F156-D2B1-947E-859E-D215D6BE457E</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <referedAttribute>C9A64EFC-1FA2-9AFE-4A82-A939C4CFF1E5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,6 +61,9 @@
 <createdTime>2023-08-13 16:28:55 UTC</createdTime>
 <generatorID>4DCD3D50-A52C-72F2-E323-323A464FAB11</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <referedAttribute>DE7808E5-38F9-1862-8736-85E7A04C47CE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,6 +76,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 16:23:06 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>34270E54-7FE1-0CEA-8AC8-045E3BBC16AF</attributeRef>

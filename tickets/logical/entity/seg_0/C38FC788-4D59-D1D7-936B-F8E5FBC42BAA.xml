@@ -5,7 +5,7 @@
 <commentInRDBMS><![CDATA[all fields mandatory, use address entity (not structured_address) to store incomplete addresses]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>99A38AF1-3B74-3B89-7AA4-AC53FC3854AC</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <referedAttribute>9981CDE8-DDF4-E3E6-764F-09E34669447B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,7 +36,7 @@
 <commentInRDBMS><![CDATA[max length accoring to Wikipedia list of Czech names for the states of the world]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,24 +47,23 @@
 <Attribute name="city" id="0A121329-3EE8-388D-5877-04A6C89DFA81">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[longest name for a Czech city
-https://mapy.cz/?source=base&id=1914161#:~:text=Brand%C3%BDs%20nad%20Labem%2DStar%C3%A1%20Boleslav%20je%20obec%20s%202.,p%C3%ADsmeny%20nejdel%C5%A1%C3%AD%20n%C3%A1zev%20%C4%8Cesk%C3%A9%20republiky.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[longest name for a Czech city - 32]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="street" id="027815D8-DA1A-CB37-0156-4C56BBE2F17D">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,7 +77,7 @@ https://mapy.cz/?source=base&id=1914161#:~:text=Brand%C3%BDs%20nad%20Labem%2DSta
 <commentInRDBMS><![CDATA[can contain letters or slashes]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,17 +88,34 @@ https://mapy.cz/?source=base&id=1914161#:~:text=Brand%C3%BDs%20nad%20Labem%2DSta
 <Attribute name="zip" id="B3F08622-4050-226F-9A84-39EDBB9FB63B">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[stored as string - keep reedability, no processig of the data expected]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="6C4AFC3F-C6A4-E9A4-E014-838C490ABF9F" value="true"/>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
 <checkConstraint>
 <implementationDef dbType="Generic Constraint" definition="zip &gt;= 0"/>
 </checkConstraint>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23C0CA52-387E-5759-EF5D-C4FE46B2829B" name="structured_address PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 11:46:35 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>26FBD4F3-D23D-A3DF-0AF8-53DE6EEA8F90</newElementsIDs>
+<usedAttributes>
+<attributeRef>26FBD4F3-D23D-A3DF-0AF8-53DE6EEA8F90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -4,7 +4,7 @@
 <createdTime>2023-07-21 17:05:26 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
 <engineerTo>
-<item key="3C222240-F43A-137F-99CA-8105CC82DD2F" value="true"/>
+<item key="72427E24-06D3-BC92-36A1-AAADA0ABD50B" value="true"/>
 </engineerTo>
 <sourcePk>B66FEE03-1D25-21BB-85AC-20DF9893C88E</sourcePk>
 <identifying>false</identifying>
@@ -16,5 +16,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>F425CE39-6F48-0C72-37DC-4452F01BB5C5</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>

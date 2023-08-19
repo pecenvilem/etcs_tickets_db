@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ticket_reference_type_ticket_relationship" directorySegmentName="seg_0" id="82D26041-007A-4ADE-F88E-7C2E7949FD5C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tckt_re_type_tckt_rel" directorySegmentName="seg_0" id="82D26041-007A-4ADE-F88E-7C2E7949FD5C">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 16:21:40 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <sourcePk>6E9B6696-F2F8-9B8D-8C0C-AD0954E880EE</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

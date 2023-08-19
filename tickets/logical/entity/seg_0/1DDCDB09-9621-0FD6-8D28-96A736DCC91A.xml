@@ -3,6 +3,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:53:02 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,11 +14,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>bg_type</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="DBE2D366-7805-659D-A761-8D1E31DC9ED9">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:53:12 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -26,6 +33,9 @@
 <createdTime>2023-07-21 16:53:20 UTC</createdTime>
 <commentInRDBMS><![CDATA[e.g. P, AN, HOV]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -37,6 +47,9 @@
 <createdTime>2023-07-21 16:53:57 UTC</createdTime>
 <commentInRDBMS><![CDATA[description of a function of the BG, e.g. used as HO location]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,6 +63,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:53:18 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DBE2D366-7805-659D-A761-8D1E31DC9ED9</attributeRef>
@@ -59,6 +75,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:19:48 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <newElementsIDs>CFBFD4B8-ECBB-01A2-F3BE-D7AAEA8F55ED</newElementsIDs>
 <usedAttributes>
 <attributeRef>CFBFD4B8-ECBB-01A2-F3BE-D7AAEA8F55ED</attributeRef>

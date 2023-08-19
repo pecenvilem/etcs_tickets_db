@@ -4,6 +4,9 @@
 <createdTime>2023-07-31 13:03:59 UTC</createdTime>
 <commentInRDBMS><![CDATA[joins individual comments into responses and other types of relations based on reference_type]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,11 +15,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>cmt_rel</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="7A6B22D1-A063-459F-DB68-EB18D93896C0">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:04:14 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -27,6 +34,9 @@
 <createdTime>2023-07-31 13:05:32 UTC</createdTime>
 <generatorID>7E26AD65-199D-35FE-8646-989730B211B6</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <referedAttribute>0523FB80-377D-216E-52CA-00F185E8EA03</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,6 +48,9 @@
 <createdTime>2023-07-31 13:06:04 UTC</createdTime>
 <generatorID>70D3987F-E054-D60E-9C9F-BE31496D9D88</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <referedAttribute>0523FB80-377D-216E-52CA-00F185E8EA03</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,6 +62,9 @@
 <createdTime>2023-07-31 13:06:46 UTC</createdTime>
 <generatorID>E29AD4B7-B975-C80A-3A57-C04D7659E2AA</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <referedAttribute>EE109497-7523-F361-ACF5-55AF1485DD27</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,6 +77,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-31 13:04:29 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<engineerTo>
+<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7A6B22D1-A063-459F-DB68-EB18D93896C0</attributeRef>
