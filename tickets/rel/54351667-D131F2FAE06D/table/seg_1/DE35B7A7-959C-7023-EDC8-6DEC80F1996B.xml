@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="DE35B7A7-959C-7023-EDC8-6DEC80F1996B" name="train_incident">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[influence_start and influence_end sequence ensured by table level constraint]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="train_id" id="F76B21E3-E310-4E3B-4933-819E99D7E21D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E0ACF18-9089-0EEE-F35F-019C2D06F68E" referredColumn="0EF321B6-9CE4-7475-40B9-38E5DBFAFAC4"/>
+</associations>
+</Column>
+<Column name="incident_id" id="034F5EA0-7381-0061-A1F3-ABA73367D16B">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03391EDE-E6E8-B534-8B10-B873F938596B" referredColumn="2A522191-B24E-1F20-A3F1-7468EFC9C477"/>
+</associations>
+</Column>
+<Column name="influence_start" id="F4712DD4-25C1-58B7-E492-C4C457AA16E5">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>528A13BE-D435-8BC3-5B54-2BE931027C5E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="influence_end" id="1BEA6042-5886-D6AA-3365-494865DF533A">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>DBD38CE5-4723-B387-3EC6-1FB6C0259251</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74A5AA04-EE1E-F316-A55E-DA4007191AEC" name="train_incident_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76B21E3-E310-4E3B-4933-819E99D7E21D"/>
+<colUsage columnID="034F5EA0-7381-0061-A1F3-ABA73367D16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C258C978-BEBC-C797-7F22-C7AFB49D1699" name="train_incident_train_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>EC447B2A-9AE5-3F6E-F9EA-B4592726CE27</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76B21E3-E310-4E3B-4933-819E99D7E21D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19A45D0B-3FC7-A4A6-4CB7-DA929F49C466" name="train_incident_incident_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>EC447B2A-9AE5-3F6E-F9EA-B4592726CE27</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="034F5EA0-7381-0061-A1F3-ABA73367D16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

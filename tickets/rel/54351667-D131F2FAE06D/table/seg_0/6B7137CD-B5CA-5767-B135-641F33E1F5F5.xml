@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B7137CD-B5CA-5767-B135-641F33E1F5F5" name="employee">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>F0EE4559-6B2A-61CA-5D81-DBA3A696628F</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<abbreviation>emp</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="42B23C34-6CB7-343F-C9D7-9C6C885B5F88">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>1707000C-EFC2-C5C0-B927-0C67E970EE08</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="B567BDDA-F90D-AB9A-6AFE-8F3D6C86AA58">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>DCE9D0E4-E98D-863C-C5C1-337C0CF4FF6E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="93F9B479-99CD-2523-4920-9859B98D6C4D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>1F34B485-ACF4-5D07-1362-9487C1402A80</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="process" id="762EDDDB-28F1-2068-7022-A2E20B982823">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<comment><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></comment>
+<commentInRDBMS><![CDATA[indicates wheather the employee stands for an automatic proces, e.g. a script detecting incidents]]></commentInRDBMS>
+<generatorID>03009A02-3A7E-9E33-F168-09226C215EDB</generatorID>
+<notes><![CDATA[Indicates wheather the "employee" stands for a automatic proces.]]></notes>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_id" id="B23C2B3E-2AE5-4592-501E-5B0B0DDB5B31">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>F14EE350-26EE-C54F-761A-52E7CED40278</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A1FE8FE-7CE0-A13F-6CB6-926EA580F792" referredColumn="ECB3BF2F-7B82-9A16-17FB-B28DD59C4F37"/>
+</associations>
+</Column>
+<Column name="department_id" id="F2732643-C35B-8F7D-F6A7-EF01B2324E92">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>1B57C3B7-7BC3-D6BB-2D6F-195F6B382E14</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D25CA34F-6032-017F-D34E-E59E313A9EEE" referredColumn="A9C6F06C-16EC-F09F-9F72-8E0C560401D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51CDE1E0-82D5-2953-26CF-0359021380F5" name="employee_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>3496ADE9-D809-C17C-DAAF-7EEC1E504997</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B23C34-6CB7-343F-C9D7-9C6C885B5F88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5E487FB-FD9F-AF34-AF12-7B32611408FF" name="employee_department_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>7E6CA880-733D-8E2A-0636-1FE4138A83D4</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2732643-C35B-8F7D-F6A7-EF01B2324E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F784939A-4D4C-598F-7023-550A59C0CAE6" name="employee_job_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>F3B562FC-6F5B-37D0-C531-469435E9EB77</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23C2B3E-2AE5-4592-501E-5B0B0DDB5B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93F7C94D-AD62-8D3F-DA03-17BC21B8A372" name="department">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>451693ED-E28C-4CEF-C67A-B9693C95D705</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<abbreviation>dept</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A9C6F06C-16EC-F09F-9F72-8E0C560401D7">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>94CD7392-09A4-D27B-EDAB-A7C69124F459</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="1189B00A-09DE-F395-A363-E4C624AF2503">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[for default department must match the name of the company
+ensure by table level constaint]]></commentInRDBMS>
+<generatorID>EE530F31-EAA7-DF16-5C54-BC48427976C3</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="default_department" id="094D44F7-EF28-82BA-4149-BF6E29489E19">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[when true, the department is only used as a placeholder  in relations requiring department, used with companies whose departments are not stored in database or which dont have any structure, e.g. minor carriers]]></commentInRDBMS>
+<generatorID>4E2068E5-C103-9464-9A5C-DB0E79B4DF23</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abbreviation" id="331C226B-C35B-127A-3732-20B9ED872C4F">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>1492053E-DC91-82ED-7F5D-541F0406F0DB</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organization_id" id="FE460EA7-CAD3-49EC-4B73-FF64E03EBC9D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>780519F6-5347-234D-047F-97361157BEAC</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DF4A0FE-E0E4-6151-8D0F-596449AC9683" referredColumn="DD3FC10B-052D-B22E-B0C0-F3F7BC234092"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9FE974A-F1E1-878E-C145-B8BDC018F89A" name="department_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>86485223-B9AA-EB80-5EFF-64A0C232BF05</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9C6F06C-16EC-F09F-9F72-8E0C560401D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="033C3B41-9B8C-1F03-C562-8FE7DC612A9B" name="department_organization_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>155D1390-87CD-7913-4F06-D6B82B95D09A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE460EA7-CAD3-49EC-4B73-FF64E03EBC9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

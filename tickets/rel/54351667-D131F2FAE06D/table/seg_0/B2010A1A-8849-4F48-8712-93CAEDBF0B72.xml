@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2010A1A-8849-4F48-8712-93CAEDBF0B72" name="balise_group">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[nid_c and nid_bg combination declared as unique constraints - this requirement holds for standard operation and incidents database will not track balises which are not deployed in the field
+separate id as primary key is used to avoid the use of a composite primary key]]></commentInRDBMS>
+<generatorID>41724739-347D-F93B-6074-FE776CB03251</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<abbreviation>bg</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8FB0175B-AEE8-939C-3672-E1896D1F3ADD">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>DDFCE397-C600-EC12-C535-012494EA86BD</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nid_c" id="741A5C38-B2FD-EA3E-1AC8-BF4367365987">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>F6B9F9E5-DD08-B231-7E60-327C632B8105</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1023</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="nid_bg" id="DDFDCDC1-D9EB-0106-011F-941FD36C1706">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[16383 - Identity is unknown (only to be used for Linking information)]]></commentInRDBMS>
+<generatorID>EFE64836-7CB9-39D7-7500-EF25C56B7D63</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>16382</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07618CD8-560B-CA9B-26D6-310DC64FC3C8" name="balise_group_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>B66FEE03-1D25-21BB-85AC-20DF9893C88E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB0175B-AEE8-939C-3672-E1896D1F3ADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="729C160F-D291-29FB-1919-3FE37EE5978B" name="balise_group_nid_c_nid_bg_UN">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>55D2C30A-AA1E-5517-6031-6FBE9AE8CBF9</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741A5C38-B2FD-EA3E-1AC8-BF4367365987"/>
+<colUsage columnID="DDFDCDC1-D9EB-0106-011F-941FD36C1706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

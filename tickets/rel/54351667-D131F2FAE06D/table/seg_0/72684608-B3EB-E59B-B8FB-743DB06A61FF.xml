@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72684608-B3EB-E59B-B8FB-743DB06A61FF" name="carrier">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[used as a subtype (polymorph variant) of department, that can be asssigned to a train as its carrier]]></commentInRDBMS>
+<generatorID>ED181EA9-1EE7-1827-BE2D-ACB158752D68</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="department_id" id="72C431C3-8ED9-619B-5FB1-8B98EA40B524">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[FK from deprtment table as PK]]></commentInRDBMS>
+<generatorID>2F4FF3EB-CF5F-86A3-D638-78F590BA3134</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95665EC6-1427-886A-D94E-F6742D838933" referredColumn="A9C6F06C-16EC-F09F-9F72-8E0C560401D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E68339FA-1E7E-F476-8AA3-30AEE90741B2" name="carrier_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>238DF7A1-AF7E-085F-DB6B-FFC9C928DDB5</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C431C3-8ED9-619B-5FB1-8B98EA40B524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="873DF4BF-360A-D413-6C88-C25F5D923E3B" name="carrier_department_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>B46DEAAE-9DCC-3DB8-29DE-9E1D72AC3765</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C431C3-8ED9-619B-5FB1-8B98EA40B524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="40B97280-EC84-E33D-DC1F-6073C61A3DFE" name="track_incident">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="track_id" id="F02D1A7B-6ACA-BB98-6B2B-F78B41B951DB">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F100F1A0-5532-D10C-20D2-4211371B79E6" referredColumn="277D9584-A086-6465-9653-B781E7AD4B7D"/>
+</associations>
+</Column>
+<Column name="incident_id" id="8D76A5B2-AA25-7F40-0DE4-818000CC4545">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E40C702-55C5-024D-607C-B032C78840AA" referredColumn="2A522191-B24E-1F20-A3F1-7468EFC9C477"/>
+</associations>
+</Column>
+<Column name="milepost" id="259B36B7-2FE6-5CD0-FA05-F2CD5A363657">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>CE5A878C-503C-F832-1C5C-AF6AFDB0F47C</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="milepost &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E96C5DCF-BF7E-5856-E000-2300F8272584" name="track_incident_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02D1A7B-6ACA-BB98-6B2B-F78B41B951DB"/>
+<colUsage columnID="8D76A5B2-AA25-7F40-0DE4-818000CC4545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60DB02D1-9B40-66B3-252B-9EC641A337B7" name="track_incident_track_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>ACB9A1E6-C880-837D-0DDE-1336003CD747</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02D1A7B-6ACA-BB98-6B2B-F78B41B951DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4954A61D-0388-AFA2-B175-F28BAD541CD8" name="track_incident_incident_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>ACB9A1E6-C880-837D-0DDE-1336003CD747</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D76A5B2-AA25-7F40-0DE4-818000CC4545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

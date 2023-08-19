@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E1D47195-7287-B556-B301-7F3A3D764EB7" containerWithKeyObject="CB5F6E7F-EABC-B8E4-5D8E-1970A7866608" localFKIndex="54D26435-55A6-C5E5-C3ED-F2C466781594" name="telegram_balise_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>14A1263E-C121-1E46-1C9B-B43F7035BD33</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<referredTableLongName>balise</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>8DEED6A5-951C-30DB-0C4E-9F7CF003AE6E</referredTableID>
+<keyObject>0825BB1A-64C1-948E-9F68-414BB0C7782C</keyObject>
+<referredKeyID>0825BB1A-64C1-948E-9F68-414BB0C7782C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>feature_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

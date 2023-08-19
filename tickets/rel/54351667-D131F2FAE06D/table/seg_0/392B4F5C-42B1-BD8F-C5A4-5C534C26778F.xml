@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="392B4F5C-42B1-BD8F-C5A4-5C534C26778F" name="rbc_bg">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rbc_id" id="E2FDBF2E-9534-F2AF-EB45-88224FD746A3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD852E49-A9C1-10FA-A27C-C7CB2CE322AF" referredColumn="7A15ED65-8BEB-A15B-0AB0-461EE39C263B"/>
+</associations>
+</Column>
+<Column name="balise_group_id" id="07CEF45A-DF55-20F1-0BFE-3472F6660C41">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F258B89-F34A-ED81-4D6D-F02FAB963B11" referredColumn="8FB0175B-AEE8-939C-3672-E1896D1F3ADD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85A39642-C6F8-9F9C-6054-5F6303909A24" name="rbc_bg_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2FDBF2E-9534-F2AF-EB45-88224FD746A3"/>
+<colUsage columnID="07CEF45A-DF55-20F1-0BFE-3472F6660C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3520F84A-0C34-5316-9290-698350E13740" name="rbc_bg_rbc_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2FDBF2E-9534-F2AF-EB45-88224FD746A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="840678C2-F93D-C5CF-7B96-4EA5B95E9748" name="rbc_bg_balise_group_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>A21B7DCD-B3CD-1B4B-E981-F7454E2A9B16</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07CEF45A-DF55-20F1-0BFE-3472F6660C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

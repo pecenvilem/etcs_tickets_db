@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCBF602C-0E4D-214C-FEB1-F9F54112BB9C" name="feature_incident">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="feature_id" id="8E966115-9154-A103-6832-3602B8524700">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9316392-FA3F-02C7-D15B-73BCB37DFF7A" referredColumn="EC06853B-1D48-F7FE-16B6-5D728348C37F"/>
+</associations>
+</Column>
+<Column name="incident_id" id="EFF8563C-B02B-338D-C240-BED790885F89">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE742987-C9CD-CA6C-2B35-EF8AC6049607" referredColumn="2A522191-B24E-1F20-A3F1-7468EFC9C477"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC9BA7AC-B8FD-CE6D-065A-85A18032EADC" name="feature_incident_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E966115-9154-A103-6832-3602B8524700"/>
+<colUsage columnID="EFF8563C-B02B-338D-C240-BED790885F89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C0E16C6-B7EE-70AC-6A21-64B8DE7C9450" name="feature_incident_feature_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>A3C92018-8ACF-5699-0BA5-DA0D7DDC974C</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E966115-9154-A103-6832-3602B8524700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13B08F9C-6922-769E-AC9E-C765E8337E8A" name="feature_incident_incident_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>A3C92018-8ACF-5699-0BA5-DA0D7DDC974C</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFF8563C-B02B-338D-C240-BED790885F89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

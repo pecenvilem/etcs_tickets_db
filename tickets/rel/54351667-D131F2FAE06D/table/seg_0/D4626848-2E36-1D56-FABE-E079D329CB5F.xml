@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4626848-2E36-1D56-FABE-E079D329CB5F" name="contact_ticket">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[send response to these contacts]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contact_id" id="36BC948F-6716-1D1E-4F3A-CB5F0B862C39">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97B4DAB0-36F9-F5D8-7306-79C54C004969" referredColumn="92F65751-6544-4458-6B2E-E3F161FE0207"/>
+</associations>
+</Column>
+<Column name="ticket_id" id="59F7D130-DA67-EA48-4EAA-7B57ADE1F5D4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="626513F8-CFB7-EDEB-1417-3E00CBACA344" referredColumn="CC688D0E-D22A-5F26-17BE-4B072A9237E7"/>
+</associations>
+</Column>
+<Column name="primary" id="B3497F18-5048-1507-73C4-D12DCCEA18F8">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>8292DC15-5F64-7791-7810-ED210285937B</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EE35353-FB7D-5750-A091-F1F39821F260" name="contact_ticket_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36BC948F-6716-1D1E-4F3A-CB5F0B862C39"/>
+<colUsage columnID="59F7D130-DA67-EA48-4EAA-7B57ADE1F5D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F5A1F30-79C5-E4AF-1BA2-9BE9280C68C1" name="contact_ticket_contact_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>C6BA4376-B9F4-76A7-6119-651D55844D7D</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36BC948F-6716-1D1E-4F3A-CB5F0B862C39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A00AADFB-09B2-9BB7-50F1-2DDBB071523A" name="contact_ticket_ticket_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>C6BA4376-B9F4-76A7-6119-651D55844D7D</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59F7D130-DA67-EA48-4EAA-7B57ADE1F5D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

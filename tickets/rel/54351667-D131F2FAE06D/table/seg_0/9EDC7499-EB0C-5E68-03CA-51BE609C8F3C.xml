@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EDC7499-EB0C-5E68-03CA-51BE609C8F3C" name="feature">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>7410E0CE-967B-3F52-9BEF-3E3F44FB2CF0</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EC06853B-1D48-F7FE-16B6-5D728348C37F">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>E2D003E8-3ACC-02DF-B7E9-78DD11F391D9</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E2D11B74-D374-3DF8-849D-B7096F3F6E9A">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>DEF54FC7-6084-CF64-173F-6F9CF1678F28</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="milepost" id="2064C6E2-466B-F383-D942-57A63CFE14C0">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>8394E21A-BD7D-2D89-6D64-5E81CEDBB19A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="milepost &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minepost_approximate" id="DAEF9076-CD4A-6876-5AB9-61C417FCF4D5">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[indicates wheather the milepost reference of the feature was manually approximately given, otherwise, it is expected to be from an accurate source, e.g. track description system]]></commentInRDBMS>
+<generatorID>FA7155E0-6A7F-378E-8674-867451A87F17</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="feature_type_id" id="BD482319-3077-BA15-D4FF-0628E25F30A4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>5E75ED84-A10E-BBD8-7827-6F8080DA55D0</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3440B00-202E-CD0F-B828-AC4CB3547BDF" referredColumn="15C0A14D-1854-36C0-31F2-12733D6D4B54"/>
+</associations>
+</Column>
+<Column name="track_id" id="348EB59D-0663-9A5E-BC38-983FAE16D1F4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>03E614B7-4B46-3E43-8FF5-62D1FC3AC18E</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBE90057-55F6-BF5E-A6A1-6EEC868AD651" referredColumn="277D9584-A086-6465-9653-B781E7AD4B7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC473D9C-6672-3257-F29C-85286A4C4D76" name="feature_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>1DE5C33D-4ED2-857A-41A8-5F7A7AA9A034</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC06853B-1D48-F7FE-16B6-5D728348C37F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7028F3D-FD6D-B2D6-D9A1-DE1021077CA4" name="feature_feature_type_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>49F8F283-80ED-042C-5D78-394EE9BA1E91</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD482319-3077-BA15-D4FF-0628E25F30A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="764639C3-6D54-0C3C-F9B6-01B36B8CAAED" name="feature_track_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>EB4AA85B-B050-1614-D46C-10E7DE6C7D0A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="348EB59D-0663-9A5E-BC38-983FAE16D1F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

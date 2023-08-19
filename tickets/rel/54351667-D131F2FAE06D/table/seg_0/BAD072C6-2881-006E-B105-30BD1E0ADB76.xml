@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAD072C6-2881-006E-B105-30BD1E0ADB76" name="mileage_discontinuity">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>EDE7BE79-EFD2-3C4A-E53A-BA9D6A28B061</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<abbreviation>mlg_disc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="feature_id" id="463A76AD-63DF-8160-3004-B7E82B457B12">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>24B1A76F-D734-7092-67F4-808B395302B5</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A92FCF49-AC87-2CBB-4F9A-EA3EFC2EC376" referredColumn="EC06853B-1D48-F7FE-16B6-5D728348C37F"/>
+</associations>
+</Column>
+<Column name="value" id="9DD28A3E-67F9-7A8B-6907-64B58C720545">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>E1778D1F-BC1D-FEC2-850D-825B894280EC</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="value &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A2D489C-F7C4-54CF-C702-72D9755D6E3B" name="mileage_discontinuity_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>39714439-B28B-226B-61C8-DD676978F617</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463A76AD-63DF-8160-3004-B7E82B457B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="665AB99A-9898-759A-354B-315459E02719" name="mileage_discontinuity_feature_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>42E2A58D-BB97-4377-99CA-7AA625594D64</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="463A76AD-63DF-8160-3004-B7E82B457B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

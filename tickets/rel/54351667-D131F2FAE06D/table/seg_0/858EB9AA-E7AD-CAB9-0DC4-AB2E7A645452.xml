@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="858EB9AA-E7AD-CAB9-0DC4-AB2E7A645452" name="structured_address">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[all fields mandatory, use address entity (not structured_address) to store incomplete addresses]]></commentInRDBMS>
+<generatorID>C38FC788-4D59-D1D7-936B-F8E5FBC42BAA</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="00C3CDE2-8935-C272-19F3-FB6BB57C9D9D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>26FBD4F3-D23D-A3DF-0AF8-53DE6EEA8F90</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95F20D1A-86C4-CA2F-0737-4670B24C88EE" referredColumn="ABD5CEA5-F68F-F0EB-6363-3A6E5628788A"/>
+</associations>
+</Column>
+<Column name="country" id="5F1BB7F5-0AB8-8591-92E6-6987021C81F9">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[max length accoring to Wikipedia list of Czech names for the states of the world]]></commentInRDBMS>
+<generatorID>D66461A7-044B-2AF6-E601-6A17CDB925AF</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>51 CHAR</dataTypeSize>
+<ownDataTypeParameters>51 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A04115CF-B267-82DF-5C94-A6789C6F1E57">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[longest name for a Czech city - 32]]></commentInRDBMS>
+<generatorID>0A121329-3EE8-388D-5877-04A6C89DFA81</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="2F4CAD7A-8995-D3E9-6964-5C061B81439E">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>027815D8-DA1A-CB37-0156-4C56BBE2F17D</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number" id="2EE9E5A7-E427-90F9-49C1-0BA10B6EA203">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[can contain letters or slashes]]></commentInRDBMS>
+<generatorID>A2DC0230-C6F9-4CF7-4183-AAAC62A08AF3</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="2FB7D7C8-FD15-6A7B-366C-1CD7E8D1A874">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[stored as string - keep reedability, no processig of the data expected]]></commentInRDBMS>
+<generatorID>B3F08622-4050-226F-9A84-39EDBB9FB63B</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="zip &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9BC2CA9-8DEE-FF4F-51B7-D3B4A4C3809C" name="structured_address_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>23C0CA52-387E-5759-EF5D-C4FE46B2829B</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C3CDE2-8935-C272-19F3-FB6BB57C9D9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3F246CB-F047-7E24-F516-AE333A4ABF51" name="structured_address_address_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>99A38AF1-3B74-3B89-7AA4-AC53FC3854AC</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C3CDE2-8935-C272-19F3-FB6BB57C9D9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

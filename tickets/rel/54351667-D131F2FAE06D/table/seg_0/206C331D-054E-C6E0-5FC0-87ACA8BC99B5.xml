@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="206C331D-054E-C6E0-5FC0-87ACA8BC99B5" name="conv_tckt">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="conversation_conversation_id" id="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4BA73E2-E74D-4402-5F0F-B65239963B2D" referredColumn="67773349-250E-33AE-5583-54F4D3BCC4CF"/>
+</associations>
+</Column>
+<Column name="conversation_change_key" id="A28AD624-40DA-FB79-330E-1F78F204D5DB">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4BA73E2-E74D-4402-5F0F-B65239963B2D" referredColumn="0AB85027-07B6-88C0-9D81-806580B94C2D"/>
+</associations>
+</Column>
+<Column name="ticket_id" id="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3353688-79E9-0DF1-1E0D-50840A2B5FB2" referredColumn="CC688D0E-D22A-5F26-17BE-4B072A9237E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1675A298-C67C-D04E-9656-3D45691F8341" name="conv_tckt_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5"/>
+<colUsage columnID="A28AD624-40DA-FB79-330E-1F78F204D5DB"/>
+<colUsage columnID="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAB0BCC4-9037-1A31-1470-47B7CD532D90" name="conv_tckt_conversation_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>01483780-C26B-D4AC-EF3C-9D93DDD62099</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5"/>
+<colUsage columnID="A28AD624-40DA-FB79-330E-1F78F204D5DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90261306-6CED-2B72-A46B-C23A54E40400" name="conv_tckt_ticket_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>01483780-C26B-D4AC-EF3C-9D93DDD62099</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

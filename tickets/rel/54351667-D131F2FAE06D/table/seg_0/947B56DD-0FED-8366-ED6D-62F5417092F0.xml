@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="947B56DD-0FED-8366-ED6D-62F5417092F0" name="location_train">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[sequence of locations assigned to a train represents the route of given train]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="F7086235-2D7E-4645-1469-9FBB1F927E33">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A0C9246-FEBD-5A1D-9222-68359B345994" referredColumn="5FA2AA20-4AAE-334E-D3A7-5426E58BB80A"/>
+</associations>
+</Column>
+<Column name="train_id" id="73518904-9A26-DCD1-6A1C-64E294C19FC4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF916AEC-3137-8DBD-1E4E-F62A1788ACED" referredColumn="0EF321B6-9CE4-7475-40B9-38E5DBFAFAC4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="813212AC-D9E8-EE6A-C457-6970F198352E" name="location_train_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7086235-2D7E-4645-1469-9FBB1F927E33"/>
+<colUsage columnID="73518904-9A26-DCD1-6A1C-64E294C19FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67373B52-17C9-9B41-933C-F4BE136512A5" name="location_train_location_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>7AEF5EAB-1223-3D36-E5F5-3C6A61DB5801</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7086235-2D7E-4645-1469-9FBB1F927E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65368D26-92E7-48FF-C83F-548B9BC75B33" name="location_train_train_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>7AEF5EAB-1223-3D36-E5F5-3C6A61DB5801</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73518904-9A26-DCD1-6A1C-64E294C19FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

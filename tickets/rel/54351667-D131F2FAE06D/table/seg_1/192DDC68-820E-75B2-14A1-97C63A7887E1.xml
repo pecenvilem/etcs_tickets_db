@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="192DDC68-820E-75B2-14A1-97C63A7887E1" name="vehicle">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[helper functions will be provided to complete the full uic number from basic national series - number combination]]></commentInRDBMS>
+<generatorID>A518B00D-065F-82D8-EEBC-CC1CC59ED383</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CB79DA90-7C23-F229-1517-C05D9BE8B874">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>95F8C839-1455-F2E4-89A9-C775B248F9E2</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uic" id="93875041-3264-48A1-4360-F88686C2FBF4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[check digit stored without a dash
+stored as string - expected search based on part of the whole number (e.g. 363012)]]></commentInRDBMS>
+<generatorID>48578F2A-D96D-612A-8228-3EDB9CFEC769</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(uic, &apos;^\d{12}$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carrier_id" id="429DEFC1-FF00-2DEF-F92E-839AD3FD5D3E">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>EE0C17C1-08BA-5AAB-6188-D284827F1B60</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E5B9EB4-B0F5-7128-5A8E-5F63549E7A99" referredColumn="72C431C3-8ED9-619B-5FB1-8B98EA40B524"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="689EEA0B-D6CC-1EB9-D2C1-57EBD154AE0C" name="vehicle_PK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>CEE99614-400E-D65F-4705-04D871EBD51D</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB79DA90-7C23-F229-1517-C05D9BE8B874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4548929F-6756-93AC-E0FF-7859669BF7EC" name="vehicle_uic_UN">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>66834A6E-6FC2-5503-8848-1FDED5C3851A</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93875041-3264-48A1-4360-F88686C2FBF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E036FBDC-4599-A8B3-C993-28412BFD73BF" name="vehicle_carrier_FK">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<generatorID>EAFB6829-7B88-1C78-8FB3-F4C8725386CA</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="429DEFC1-FF00-2DEF-F92E-839AD3FD5D3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
