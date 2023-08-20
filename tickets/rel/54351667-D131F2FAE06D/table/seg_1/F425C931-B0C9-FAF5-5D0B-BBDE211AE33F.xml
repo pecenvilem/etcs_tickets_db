@@ -49,6 +49,24 @@
 <colUsage columnID="7307B491-35F3-226F-3896-AE7C77F40038"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="4D8265F8-674C-7FA7-9319-5A14BF0F1BF9" name="vehicle_incident__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:42:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D99D5FD-ABEA-DBC2-E2E5-A1BEE87319AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1AE6116-6446-A970-3FC3-5DD74B08ADD8" name="vehicle_incident__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:42:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7307B491-35F3-226F-3896-AE7C77F40038"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="8C1E144C-B031-0CFF-FBE0-B4057C18F13E" name="vehicle_incident_vehicle_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

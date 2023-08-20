@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A518B00D-065F-82D8-EEBC-CC1CC59ED383" name="vehicle">
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 10:37:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[helper functions will be provided to complete the full uic number from basic national series - number combination]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,8 +21,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-24 08:35:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,27 +36,29 @@
 <commentInRDBMS><![CDATA[check digit stored without a dash
 stored as string - expected search based on part of the whole number (e.g. 363012)]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <dataTypeSize>12 BYTE</dataTypeSize>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="like_regex(uic, &apos;^\d{12}$&apos;)"/>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE(uic, &apos;^\d{12}$&apos;)"/>
 </checkConstraint>
 <ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="C293010A-9213-F957-C4D8-738A2CC19988">
-<createdBy>Pecen</createdBy>
-<createdTime>2023-07-21 12:05:25 UTC</createdTime>
+<Attribute name="id1" id="EE0C17C1-08BA-5AAB-6188-D284827F1B60">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 18:42:13 UTC</createdTime>
 <generatorID>EAFB6829-7B88-1C78-8FB3-F4C8725386CA</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
-<referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
+<referedAttribute>2F4FF3EB-CF5F-86A3-D638-78F590BA3134</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -65,12 +70,26 @@ stored as string - expected search based on part of the whole number (e.g. 36301
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-20 10:47:19 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>95F8C839-1455-F2E4-89A9-C775B248F9E2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="66834A6E-6FC2-5503-8848-1FDED5C3851A" name="uic">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 17:55:27 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
+</engineerTo>
+<newElementsIDs>48578F2A-D96D-612A-8228-3EDB9CFEC769</newElementsIDs>
+<usedAttributes>
+<attributeRef>48578F2A-D96D-612A-8228-3EDB9CFEC769</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

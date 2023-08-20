@@ -20,6 +20,9 @@ opened is mandatory, if others are none, check must pass]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="opened" id="91290529-725A-529D-6BDF-F25ED875CB71">
@@ -58,7 +61,7 @@ opened is mandatory, if others are none, check must pass]]></commentInRDBMS>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="employee_id2" id="CD8633DE-0316-D99F-8EF7-33F3FD908AC5">
+<Column name="employee_opened_by_id" id="CD8633DE-0316-D99F-8EF7-33F3FD908AC5">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>7FBD829C-565D-72C1-6BFA-3D42D142E025</generatorID>
@@ -73,7 +76,7 @@ opened is mandatory, if others are none, check must pass]]></commentInRDBMS>
 <colAssociation fkAssociation="0085D3F3-E866-AD2C-4589-EAA9D3D9F425" referredColumn="42B23C34-6CB7-343F-C9D7-9C6C885B5F88"/>
 </associations>
 </Column>
-<Column name="employee_id" id="AEC8F8A8-3DE6-401B-EF3F-9C1BAC7D3EC1">
+<Column name="empoyee_closed_by_id" id="AEC8F8A8-3DE6-401B-EF3F-9C1BAC7D3EC1">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>0AD5E2F7-CBAB-A432-9D69-75BA61A3FCF7</generatorID>
@@ -101,6 +104,52 @@ opened is mandatory, if others are none, check must pass]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CC688D0E-D22A-5F26-17BE-4B072A9237E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE17845B-5827-A726-BF7F-AB53606F62A0" name="ticket__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:35:05 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8633DE-0316-D99F-8EF7-33F3FD908AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF59863-F75A-B0C4-4DF3-D40FBFBE38E3" name="ticket__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:35:05 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC8F8A8-3DE6-401B-EF3F-9C1BAC7D3EC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7594199-FEF5-7B32-3752-6304A60CF724" name="ticket__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:35:05 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91290529-725A-529D-6BDF-F25ED875CB71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B69E373-E253-5505-3310-D96A2DE1702D" name="ticket__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:35:05 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91290529-725A-529D-6BDF-F25ED875CB71"/>
+<colUsage columnID="DD4895EC-A6F6-CA2F-AD7D-B3C5B0704FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2481CFFB-3157-A8EE-A890-0C16E987F8C1" name="ticket__IDXv4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:35:05 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD4895EC-A6F6-CA2F-AD7D-B3C5B0704FCF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="FB65BF98-7E4B-F014-059C-907A4AEDFCDA" name="ticket_employee_FK">

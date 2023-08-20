@@ -4,8 +4,9 @@
 <createdTime>2023-07-21 16:14:01 UTC</createdTime>
 <comment><![CDATA[Assignement to either an incident or a ticket must be filled in.]]></comment>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,20 +22,35 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:15:54 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="created" id="1C4FA646-7CDB-1E05-6E55-0AB5FFA59CD1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:08:23 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="text" id="DFD70E74-F2E1-14B6-3D29-8B65BE2E0F30">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:16:24 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,8 +63,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:17:35 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,8 +78,9 @@
 <createdTime>2023-07-21 16:21:42 UTC</createdTime>
 <generatorID>589EB0CD-7C5C-DFFD-2264-7B2E551CBB0F</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>322B1878-1186-77FB-28B3-15DC63977EDA</referedAttribute>
@@ -76,8 +94,9 @@
 <createdTime>2023-07-21 16:21:57 UTC</createdTime>
 <generatorID>3A323CC5-1FD9-E4C9-3151-DBE7372C9009</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>C9A64EFC-1FA2-9AFE-4A82-A939C4CFF1E5</referedAttribute>
@@ -91,8 +110,9 @@
 <createdTime>2023-07-21 16:22:09 UTC</createdTime>
 <generatorID>C5FF4F93-B4D4-103F-07A4-0DB5A5541644</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -106,8 +126,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 16:16:10 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

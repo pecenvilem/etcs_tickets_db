@@ -3,11 +3,13 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:16:16 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <sourcePk>45AB0F14-E01A-3E30-5721-9EA09BE1E8A0</sourcePk>
 <identifying>false</identifying>
+<nameOnTarget>telegram_type_id</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

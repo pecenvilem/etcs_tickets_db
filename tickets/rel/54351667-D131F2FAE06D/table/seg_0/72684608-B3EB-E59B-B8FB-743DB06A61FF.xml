@@ -39,6 +39,15 @@
 <colUsage columnID="72C431C3-8ED9-619B-5FB1-8B98EA40B524"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="4D8F22CD-2AAA-E42B-659A-26EE3F0A52FB" name="carrier__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 10:26:37 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C431C3-8ED9-619B-5FB1-8B98EA40B524"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="873DF4BF-360A-D413-6C88-C25F5D923E3B" name="carrier_department_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

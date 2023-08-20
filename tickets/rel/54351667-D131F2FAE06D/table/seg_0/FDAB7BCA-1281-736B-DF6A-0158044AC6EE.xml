@@ -22,6 +22,9 @@ either filename, url or file field must be present, ensure by table level constr
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="filename" id="2E471667-4A8F-9D02-2A26-ABB6E996B7A3">
@@ -96,6 +99,34 @@ either filename, url or file field must be present, ensure by table level constr
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="73A44E12-84A7-19AB-9A4F-02915E77D627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06D3F254-0543-9592-4920-5FD2AA9FB67E" name="screen_recording__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:26:08 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213508B5-2EAE-BAB0-E0CE-420F75DBA4CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2203A3A1-AFD3-055E-5A66-34B8DA6874A5" name="screen_recording__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:26:08 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFD43540-44C7-0F6B-69A2-5834E8C093F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE3C733D-D34B-3871-018D-45F53B821639" name="screen_recording__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:26:08 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="213508B5-2EAE-BAB0-E0CE-420F75DBA4CF"/>
+<colUsage columnID="AFD43540-44C7-0F6B-69A2-5834E8C093F6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

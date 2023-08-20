@@ -92,6 +92,52 @@
 <colUsage columnID="0BE2BDC2-3B4F-CDD6-AE19-CD4C523125E9"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="5837F6CD-F312-5149-8E47-411CF9A0C166" name="sim_obu__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:27:15 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B550B32F-51CA-3D71-4F20-DFC508438643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8BF27A8-9653-0DCE-C9D7-1DF3BFEA56BE" name="sim_obu__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:27:15 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BE2BDC2-3B4F-CDD6-AE19-CD4C523125E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCF0F9F3-3D64-74B1-7F41-3EA7F55550FF" name="sim_obu__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:27:15 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2B1000A-712E-8799-879B-F42C5987635F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99FDB9F4-0E3C-D949-BAE9-CBE4CF06C51B" name="sim_obu__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:27:15 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0371FD9-4AB0-6746-B08C-DCF310C80BDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F764D46D-4F6A-F3F5-1D19-B22DA461919E" name="sim_obu__IDXv4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:27:15 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2B1000A-712E-8799-879B-F42C5987635F"/>
+<colUsage columnID="B0371FD9-4AB0-6746-B08C-DCF310C80BDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="5EA8570F-4D70-8197-B28E-733D43937B4E" name="sim_obu_sim_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

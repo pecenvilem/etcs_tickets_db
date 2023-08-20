@@ -153,6 +153,64 @@
 <colUsage columnID="EE836D56-CE0C-44D9-E228-A2EFBBAD217E"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="6BF07F7A-3EED-6A65-5344-4E5765A10E94" name="station__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:28:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A5DB843-1321-2561-95D1-D7E2FD7A6CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A038F01-6D16-CC36-5CED-A207ADEF034F" name="station__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:28:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="281C496A-A569-357C-2EA5-CFA954CD4762"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB38BBF4-4012-DD8D-06AF-198EFA297E70" name="station__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:28:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71BC3837-806B-CB75-3BC4-33A9D1EBD1C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9567E85F-42FA-53AB-44AE-6593A528BC93" name="station__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:28:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0542C792-2424-B9C4-0CAA-D0C5EA3BE014"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED2AE59C-F642-3844-6C45-7991F5D3D4E1" name="station__IDXv4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:28:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A5DB843-1321-2561-95D1-D7E2FD7A6CB8"/>
+<colUsage columnID="71BC3837-806B-CB75-3BC4-33A9D1EBD1C4"/>
+<colUsage columnID="0542C792-2424-B9C4-0CAA-D0C5EA3BE014"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="889090FA-4428-DF00-C61F-A17B2CE547D5" name="station__IDXv5">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:28:49 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="281C496A-A569-357C-2EA5-CFA954CD4762"/>
+<colUsage columnID="71BC3837-806B-CB75-3BC4-33A9D1EBD1C4"/>
+<colUsage columnID="0542C792-2424-B9C4-0CAA-D0C5EA3BE014"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FD12F233-2463-6978-C778-FC4C49520A21" name="station_location_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

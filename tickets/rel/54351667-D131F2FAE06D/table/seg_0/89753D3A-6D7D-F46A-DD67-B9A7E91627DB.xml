@@ -19,9 +19,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="comment_id" id="B8BED9B5-2881-0CC5-7959-75180DBC86B5">
+<Column name="referenced_comment_id" id="B8BED9B5-2881-0CC5-7959-75180DBC86B5">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>D7F699F8-16D3-A92B-FAEB-00802131CB08</generatorID>
@@ -36,7 +39,7 @@
 <colAssociation fkAssociation="FDDAAD8E-5974-5C2D-245C-EC4A7176D96A" referredColumn="2A817E14-61AA-4020-E6F1-07F4BDDD5E87"/>
 </associations>
 </Column>
-<Column name="comment_id2" id="2B5EACFB-F6B8-76E3-EE68-1AF309656B92">
+<Column name="referencing_comment_id" id="2B5EACFB-F6B8-76E3-EE68-1AF309656B92">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>E9821641-0FEA-BEED-D156-E41EF5F9094B</generatorID>
@@ -78,6 +81,33 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A7A933CA-EA73-A091-AE54-F35C08304A28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9E21DEF-E089-F757-016C-C19B27000797" name="comment_relationship__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:28:14 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8BED9B5-2881-0CC5-7959-75180DBC86B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDE371F5-4850-AB5A-0727-270F3F59D474" name="comment_relationship__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:28:14 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5EACFB-F6B8-76E3-EE68-1AF309656B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F53DC26-4686-655E-66EE-CDA5DDDE9F1E" name="comment_relationship__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:28:14 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C53B3FC-61B3-1AA2-7802-7C053ADA8A2E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C9F2A27C-B3DE-1E14-0015-4194321CEFF0" name="comment_relationship_comment_reference_type_FK">

@@ -7,7 +7,21 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="conversation_conversation_id" id="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5">
+<Column name="ticket_id" id="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 22:53:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3353688-79E9-0DF1-1E0D-50840A2B5FB2" referredColumn="CC688D0E-D22A-5F26-17BE-4B072A9237E7"/>
+</associations>
+</Column>
+<Column name="conversation_id" id="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
@@ -22,7 +36,7 @@
 <colAssociation fkAssociation="A4BA73E2-E74D-4402-5F0F-B65239963B2D" referredColumn="67773349-250E-33AE-5583-54F4D3BCC4CF"/>
 </associations>
 </Column>
-<Column name="conversation_change_key" id="A28AD624-40DA-FB79-330E-1F78F204D5DB">
+<Column name="change_key" id="A28AD624-40DA-FB79-330E-1F78F204D5DB">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
@@ -35,20 +49,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="A4BA73E2-E74D-4402-5F0F-B65239963B2D" referredColumn="0AB85027-07B6-88C0-9D81-806580B94C2D"/>
-</associations>
-</Column>
-<Column name="ticket_id" id="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-19 22:53:36 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E3353688-79E9-0DF1-1E0D-50840A2B5FB2" referredColumn="CC688D0E-D22A-5F26-17BE-4B072A9237E7"/>
 </associations>
 </Column>
 </columns>
@@ -64,6 +64,25 @@
 <colUsage columnID="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5"/>
 <colUsage columnID="A28AD624-40DA-FB79-330E-1F78F204D5DB"/>
 <colUsage columnID="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84B881D9-443E-CA41-5D55-D811118885D1" name="conv_tckt__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:36:12 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3CAA5CB-90EF-EA5C-65B7-65AE87A4D168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D704FD58-A2B0-6DA1-D524-33B0794CCEE7" name="conv_tckt__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:36:12 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4C8376E-99A7-50DA-F5F9-0F2DEC6364A5"/>
+<colUsage columnID="A28AD624-40DA-FB79-330E-1F78F204D5DB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="BAB0BCC4-9037-1A31-1470-47B7CD532D90" name="conv_tckt_conversation_FK">

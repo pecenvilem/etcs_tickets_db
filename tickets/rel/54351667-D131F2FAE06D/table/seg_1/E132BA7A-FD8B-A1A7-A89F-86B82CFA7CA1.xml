@@ -19,6 +19,9 @@ deleted is optional, if NULL, constraint must pass]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="text" id="EF4B4105-F764-AA79-4F39-628242B6B03E">
@@ -98,6 +101,34 @@ deleted is optional, if NULL, constraint must pass]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="95014A0F-9C33-751A-BF54-1C20A97682E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B980501B-BDE9-8718-0D94-CD7627E16E73" name="vehicle_remark__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:43:44 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C97B5644-448D-50AA-4E92-1EFE313028C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2597850A-905F-8C65-97DA-73EC34D1A163" name="vehicle_remark__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:43:44 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="876E1773-58F3-D8C7-14C3-A2EF4CEF8112"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="156A26E8-CE26-65D7-72E2-CF8BE1ABCBF5" name="vehicle_remark__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:43:44 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="390CBFA5-824C-EE7F-4D43-35D7BAB3CC05"/>
+<colUsage columnID="5E7B7C5E-F459-D7AC-5179-E236CE33BBAF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="38C1DCB0-65B3-3B9F-993E-15BA53F1AD2C" name="vehicle_remark_employee_FK">

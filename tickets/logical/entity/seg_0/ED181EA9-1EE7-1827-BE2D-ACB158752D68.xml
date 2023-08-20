@@ -4,8 +4,9 @@
 <createdTime>2023-08-09 20:09:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[used as a subtype (polymorph variant) of department, that can be asssigned to a train as its carrier]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,8 +23,9 @@
 <commentInRDBMS><![CDATA[FK from deprtment table as PK]]></commentInRDBMS>
 <generatorID>B46DEAAE-9DCC-3DB8-29DE-9E1D72AC3765</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,8 +39,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-09 20:17:04 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>2F4FF3EB-CF5F-86A3-D638-78F590BA3134</newElementsIDs>

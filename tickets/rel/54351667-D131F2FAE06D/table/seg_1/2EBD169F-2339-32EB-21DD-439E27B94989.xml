@@ -17,6 +17,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="number" id="2AD75E53-397A-9D8B-BC38-BD392AE58E38">
@@ -99,6 +102,34 @@
 <generatorID>15A7BB68-F511-D894-8CA8-19DCB193A3CA</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AD75E53-397A-9D8B-BC38-BD392AE58E38"/>
+<colUsage columnID="2B8E42C8-0CA4-2C3E-FE5F-9A68072B6CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50A93048-DEDB-4797-4A65-1B9211290C1A" name="train__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:40:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE6C4CB-A327-611C-EC63-5D20CB365ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0FA311F-D038-E16F-49D5-91A2EB9834A2" name="train__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:40:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="105755FC-DD9F-0C21-5EB9-588607DF10F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B93EFA97-3959-B4E1-8A82-CB07378E36B5" name="train__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:40:36 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2AD75E53-397A-9D8B-BC38-BD392AE58E38"/>

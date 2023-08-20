@@ -77,6 +77,43 @@
 <colUsage columnID="D87825FC-5192-22C8-45EA-FADC2401B40D"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="513BC7C1-0BCA-477C-2770-763616335E64" name="tckt_state_tckt__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:30:54 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCA1EC9E-8048-F12C-2D92-B7669E3D9BED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D8D76EA-6CDA-E313-666F-309BB0B3F13B" name="tckt_state_tckt__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:30:54 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87825FC-5192-22C8-45EA-FADC2401B40D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49930C0E-EFB9-27B5-3C0A-5E922BA9F4FD" name="tckt_state_tckt__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:30:54 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC1CC21-B9A9-12C9-E84F-CEB90713E815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="293B0BF8-6F48-6067-D53A-D04CCDBB4C4D" name="tckt_state_tckt__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:30:54 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87825FC-5192-22C8-45EA-FADC2401B40D"/>
+<colUsage columnID="2DE1D48F-EC3C-5FCF-B814-71590760A775"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="88D5646B-DE01-B8D6-C042-594239D34320" name="tckt_state_tckt_ticket_state_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

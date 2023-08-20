@@ -19,6 +19,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="start" id="CBA5ADF1-A864-39F4-3864-66AFE2E7F8D2">
@@ -115,6 +118,43 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="81B1EEBC-6FC0-A98B-B930-AB2A4AE175C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06F274F4-619A-1EA2-1EDC-C137C60CBE66" name="event__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:45:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15775DFE-BED2-896C-C1F9-F3EBB70B9B4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAAD448D-9CC6-AA00-22C4-A1680784EE9F" name="event__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:45:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB2FA90-2747-9B55-501C-11B402A1C48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCDDF0D7-AD9D-B7EC-B6CB-B50783983268" name="event__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:45:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BA425F9-AEA0-D301-1603-B355BA37FE9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE527F37-D532-8FB6-0FAA-02C667C26B8F" name="event__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:45:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBA5ADF1-A864-39F4-3864-66AFE2E7F8D2"/>
+<colUsage columnID="3698739B-4DC5-00D1-6A43-00D1120EFE91"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="67D5A72E-483A-3DBC-2CB8-BDD5A9CEAF29" name="event_department_FK">

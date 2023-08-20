@@ -49,6 +49,24 @@
 <colUsage columnID="9699D9E2-2D90-44B2-85AA-C21CCD8DF204"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="4F14F333-9241-E68D-DD4B-78FB827C4496" name="scr_rec_inc__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:25:25 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96067D30-A01E-EA57-0D76-ACDC8FDDDF20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D7F9264-3007-31E7-7B67-582D6D7FD0C3" name="scr_rec_inc__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:25:25 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9699D9E2-2D90-44B2-85AA-C21CCD8DF204"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="7F4B618C-7413-F16F-3220-DE2816DC57EA" name="scr_rec_inc_screen_recording_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

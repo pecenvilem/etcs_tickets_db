@@ -3,9 +3,11 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 15:03:10 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
+<sourcePk>EAD94329-BAD4-AE9D-6EDD-EB78E87FD96F</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
@@ -14,5 +16,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>41724739-347D-F93B-6074-FE776CB03251</targetEntity>
 <transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>SET NULL</deleteRule>
 </Relation>

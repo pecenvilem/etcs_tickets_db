@@ -4,8 +4,9 @@
 <createdTime>2023-08-12 21:04:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[all fields mandatory, use address entity (not structured_address) to store incomplete addresses]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +22,9 @@
 <createdTime>2023-08-12 21:05:12 UTC</createdTime>
 <generatorID>99A38AF1-3B74-3B89-7AA4-AC53FC3854AC</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>9981CDE8-DDF4-E3E6-764F-09E34669447B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,8 +37,9 @@
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[max length accoring to Wikipedia list of Czech names for the states of the world]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,8 +52,9 @@
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[longest name for a Czech city - 32]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,8 +66,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,8 +81,9 @@
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[can contain letters or slashes]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -90,8 +96,9 @@
 <createdTime>2023-08-12 21:04:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[stored as string - keep reedability, no processig of the data expected]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -108,8 +115,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 11:46:35 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>26FBD4F3-D23D-A3DF-0AF8-53DE6EEA8F90</newElementsIDs>

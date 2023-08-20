@@ -3,8 +3,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 10:35:44 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -14,13 +15,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>inc</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="C9A64EFC-1FA2-9AFE-4A82-A939C4CFF1E5">
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-11 19:42:05 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,8 +36,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-07-11 19:42:20 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

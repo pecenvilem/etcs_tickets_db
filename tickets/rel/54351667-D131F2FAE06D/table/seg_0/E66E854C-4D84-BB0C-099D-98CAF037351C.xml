@@ -17,6 +17,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="4DC27BB3-A812-6A65-F86B-3267D6994325">
@@ -64,6 +67,15 @@
 <generatorID>90F82C31-BFD1-3920-1A43-1CB3016BC913</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DC27BB3-A812-6A65-F86B-3267D6994325"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD27DF14-F5C3-7255-3612-AEF222F67BFB" name="mounting_system__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:22:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4DC27BB3-A812-6A65-F86B-3267D6994325"/>

@@ -18,6 +18,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="imsi" id="AB2E63EA-1B68-69D5-6492-02713F785C61">
@@ -169,6 +172,24 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8FAFD945-A4D1-80AB-1FDA-B833D1508539"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BED84D71-FE57-2BC6-D74D-11A9AC89C896" name="sim__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:26:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A0B289E-6BFB-A3AE-150D-4197D0A9AB51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F657C5A7-359E-7F03-92B1-E06E8001776C" name="sim__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:26:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E05F8C47-E8E2-4F08-907D-91B1DC966858"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="02B96F9F-8EB8-28F5-93B9-D9D30BBFE01C" name="sim_employee_FK">

@@ -90,6 +90,52 @@
 <colUsage columnID="9BFB2671-8A9E-D006-AADA-F9E7D5F74B6F"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="8BFC1A33-B847-A3D7-FD82-F69C3D12C708" name="obu_vehicle__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:23:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313A17CE-14E0-8B8B-E310-22A492D76110"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BCDABE6-D888-1380-DF7A-F5EC4CFA45C4" name="obu_vehicle__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:23:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BFB2671-8A9E-D006-AADA-F9E7D5F74B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88D974EC-6530-A22B-216B-180E9A4FF8AD" name="obu_vehicle__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:23:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D49B9E6-E6A0-D1B2-3F60-B9D87AC33479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF0D0847-8527-742B-B269-C62CF0FE5CEE" name="obu_vehicle__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:23:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27E76982-1C05-18E6-0CB5-C764FEE12BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5586ADB4-414C-6ED6-8B63-627CFBD0B019" name="obu_vehicle__IDXv4">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:23:22 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D49B9E6-E6A0-D1B2-3F60-B9D87AC33479"/>
+<colUsage columnID="27E76982-1C05-18E6-0CB5-C764FEE12BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="FC8995E2-51E8-38D4-0E74-7C5F6BBB7AAD" name="obu_vehicle_obu_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

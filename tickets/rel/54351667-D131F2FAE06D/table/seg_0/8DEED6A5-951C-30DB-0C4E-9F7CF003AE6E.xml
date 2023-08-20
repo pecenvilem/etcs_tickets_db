@@ -99,6 +99,24 @@
 <colUsage columnID="EF573947-18AA-1E6A-FC1F-AD9F3112F316"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="706491DB-BA8B-7B66-42D3-7FA087CA6A0B" name="balise__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 10:17:24 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82052E82-3F71-F640-B9BC-927A49E0D749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7611FAE1-5386-3FBA-9CB7-094989F38F8F" name="balise__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 10:24:41 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF573947-18AA-1E6A-FC1F-AD9F3112F316"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="589A460A-CF01-D1BE-494B-1435DEF29FEF" name="balise_balise_group_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

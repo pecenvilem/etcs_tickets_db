@@ -17,6 +17,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nid_c" id="FD0A6A87-6C67-C094-6C07-ECA03754397B">
@@ -108,6 +111,34 @@
 <indexColumnUsage>
 <colUsage columnID="FD0A6A87-6C67-C094-6C07-ECA03754397B"/>
 <colUsage columnID="89AF8A33-8985-03FB-338C-8C2B3AD075B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E048F7ED-2C42-066F-9E6F-B2F1DC579BF4" name="rbc__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:24:46 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD0A6A87-6C67-C094-6C07-ECA03754397B"/>
+<colUsage columnID="89AF8A33-8985-03FB-338C-8C2B3AD075B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF130C45-E51F-1C48-56AC-5D4AAF5CE508" name="rbc__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:24:46 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD615A6B-8B0D-AD69-323C-23925CCA5086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FB724E2-3E7F-8B62-5C14-730851EA90B6" name="rbc__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:24:46 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE0E539A-3B61-1E17-0806-552E353094EA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

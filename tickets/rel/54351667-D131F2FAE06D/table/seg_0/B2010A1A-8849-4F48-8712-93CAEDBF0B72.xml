@@ -20,6 +20,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nid_c" id="741A5C38-B2FD-EA3E-1AC8-BF4367365987">
@@ -79,6 +82,16 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <generatorID>55D2C30A-AA1E-5517-6031-6FBE9AE8CBF9</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
 <indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741A5C38-B2FD-EA3E-1AC8-BF4367365987"/>
+<colUsage columnID="DDFDCDC1-D9EB-0106-011F-941FD36C1706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6EB7765-B338-A801-DE4C-2221C001A7D8" name="balise_group__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 10:17:59 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="741A5C38-B2FD-EA3E-1AC8-BF4367365987"/>

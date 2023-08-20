@@ -19,6 +19,9 @@ an address can appear with multiple contacts]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="email" id="F5E3A1CE-703D-7F17-CE45-392E99BBC69C">
@@ -67,18 +70,6 @@ ALTER TABLE employee ENABLE NOVALIDATE CONSTRAINT <constraint_name>;]]></comment
 <ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id1" id="9B01665C-B3B0-5065-DD5E-23197EC81619">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-19 22:53:36 UTC</createdTime>
-<generatorID>C4338C62-F1FF-84AA-EEEB-90BF489CBE7D</generatorID>
-<ownerDesignName>tickets</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6687BA24-71E5-9C17-418B-7F8E26C4DDF5" name="contact_PK">
@@ -91,6 +82,15 @@ ALTER TABLE employee ENABLE NOVALIDATE CONSTRAINT <constraint_name>;]]></comment
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="92F65751-6544-4458-6B2E-E3F161FE0207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72899520-2224-A190-8F89-F14679BDAA95" name="contact__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:29:23 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E3A1CE-703D-7F17-CE45-392E99BBC69C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

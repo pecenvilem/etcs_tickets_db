@@ -18,9 +18,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="incident_id" id="B2053738-AD44-ADE8-1303-AFD80C2C3B89">
+<Column name="referencing_incident_id" id="B2053738-AD44-ADE8-1303-AFD80C2C3B89">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>BBDDE89A-8241-792A-A226-7E3A594BFF7D</generatorID>
@@ -35,7 +38,7 @@
 <colAssociation fkAssociation="08646868-EB01-BEA0-51D3-24155E5E379A" referredColumn="2A522191-B24E-1F20-A3F1-7468EFC9C477"/>
 </associations>
 </Column>
-<Column name="incident_id2" id="98FA256D-5E08-7191-204F-2BCB2654DD3E">
+<Column name="referenced_incident_id" id="98FA256D-5E08-7191-204F-2BCB2654DD3E">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>50154913-B90F-4956-F8CD-B000E3F22560</generatorID>
@@ -77,6 +80,33 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="327DF59A-FA6D-40BE-543C-888A8EF39293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34ACF384-CAF2-52DA-9DCD-1715F3574F38" name="incident_relationship__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:10:03 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2053738-AD44-ADE8-1303-AFD80C2C3B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83231CE6-A20C-3A5E-FCE6-51AEBB730F4C" name="incident_relationship__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:10:03 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98FA256D-5E08-7191-204F-2BCB2654DD3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7E63B3D-0F55-8819-8251-42F045F79AC6" name="incident_relationship__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:10:03 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0AB592-A8D7-3EC8-7183-31A2D57D0E7F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8DCFDBF3-99DC-ADD0-1A07-E5484A61BD5A" name="incident_relationship_incident_reference_type_FK">

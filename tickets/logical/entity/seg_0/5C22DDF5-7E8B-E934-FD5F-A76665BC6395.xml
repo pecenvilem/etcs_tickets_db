@@ -4,8 +4,9 @@
 <createdTime>2023-08-12 22:09:33 UTC</createdTime>
 <commentInRDBMS><![CDATA[user_data and tlg_url can be empty, if tlegram record is only used to describe a telegram type without the actual data]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +16,15 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>tlg</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="776BF3F8-F770-5DB0-B34A-FBDCCFDBC79A">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,8 +37,9 @@
 <commentInRDBMS><![CDATA[for fixed balises, the one associated telegram must be marked as default
 ensure by trigger]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,8 +51,9 @@ ensure by trigger]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,8 +66,9 @@ ensure by trigger]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:55 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,14 +77,31 @@ ensure by trigger]]></commentInRDBMS>
 <dataTypeSize>1024 CHAR</dataTypeSize>
 <ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id3" id="DBC73BA2-1088-7A0C-3473-4697F6093CC0">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 18:24:40 UTC</createdTime>
+<generatorID>14A1263E-C121-1E46-1C9B-B43F7035BD33</generatorID>
+<ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>72E322FB-921E-E8F8-94DB-2719C4270212</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FE4939EA-51D8-C5A9-A8AA-564F56D807C3" name="telegram PK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:09:52 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

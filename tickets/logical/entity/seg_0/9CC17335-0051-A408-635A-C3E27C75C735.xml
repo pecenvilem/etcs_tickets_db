@@ -5,8 +5,9 @@
 <commentInRDBMS><![CDATA[correct sequence of start and end datetimes will be ensured by table leve constraint
 start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +22,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 12:27:46 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,8 +35,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 12:28:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,8 +49,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 12:28:13 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,13 +59,29 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="description" id="F036DB68-9997-CB99-2CA6-A90A867F9E4D">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 15:01:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[e. g. ROV number, what happened, who was involved, where did it happen]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id1" id="42CA20DF-937A-9AE7-9ED5-9204D6FF4B8D">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 12:32:10 UTC</createdTime>
 <generatorID>9BB1FE69-9A8D-1C7E-99BB-A00534E1B22C</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>94CD7392-09A4-D27B-EDAB-A7C69124F459</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,8 +94,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdTime>2023-08-12 12:38:23 UTC</createdTime>
 <generatorID>AD2BEF8B-0635-8848-8AF2-38C102E5EE96</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,8 +109,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdTime>2023-08-12 12:41:13 UTC</createdTime>
 <generatorID>E151B4CF-A1CD-27E2-E77B-74F53D12E34B</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>B30E8AB5-C081-3E86-950E-D0C36D8BF45D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,8 +125,9 @@ start is mandatory, of end is NULL, check must pass]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 12:27:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

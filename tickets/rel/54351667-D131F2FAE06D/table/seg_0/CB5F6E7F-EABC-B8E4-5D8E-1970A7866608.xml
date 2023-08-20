@@ -19,6 +19,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="default" id="D86A8CB6-C097-5105-6683-B010895B79D6">
@@ -61,7 +64,7 @@ ensure by trigger]]></commentInRDBMS>
 <ownDataTypeParameters>1024 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="balise_id3" id="8A179A70-D78A-B4F1-B658-DB8B430E7ACC">
+<Column name="balise_id" id="8A179A70-D78A-B4F1-B658-DB8B430E7ACC">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>DBC73BA2-1088-7A0C-3473-4697F6093CC0</generatorID>
@@ -118,6 +121,15 @@ ensure by trigger]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DB56CCCA-02F6-1872-9783-C5FC2F1A5187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C051158C-1375-0DBE-CA7D-D702CF7A937B" name="telegram__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:32:10 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A179A70-D78A-B4F1-B658-DB8B430E7ACC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="54D26435-55A6-C5E5-C3ED-F2C466781594" name="telegram_balise_FK">

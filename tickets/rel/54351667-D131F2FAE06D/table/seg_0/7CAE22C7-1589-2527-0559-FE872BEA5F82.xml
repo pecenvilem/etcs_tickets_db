@@ -7,7 +7,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="email_item_id" id="682B5C6D-C023-9C00-ADA4-330F81BAF98E">
+<Column name="item_id" id="682B5C6D-C023-9C00-ADA4-330F81BAF98E">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
@@ -22,7 +22,7 @@
 <colAssociation fkAssociation="FC418F63-C8B1-6E19-8AEF-CEB5EDE3D298" referredColumn="56DAA974-B62B-7C0B-BDB4-D6C664A08967"/>
 </associations>
 </Column>
-<Column name="email_change_key" id="FE95FD31-1D50-4E2E-1DB1-CB82BD605DE9">
+<Column name="change_key" id="FE95FD31-1D50-4E2E-1DB1-CB82BD605DE9">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
@@ -77,6 +77,37 @@
 <colUsage columnID="682B5C6D-C023-9C00-ADA4-330F81BAF98E"/>
 <colUsage columnID="FE95FD31-1D50-4E2E-1DB1-CB82BD605DE9"/>
 <colUsage columnID="EC8D9957-B418-95F3-0023-D225DFA8D88E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B74270B-08BA-5052-A679-55AF3CEFDB2A" name="email_ticket__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:39:09 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="682B5C6D-C023-9C00-ADA4-330F81BAF98E"/>
+<colUsage columnID="FE95FD31-1D50-4E2E-1DB1-CB82BD605DE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6FAFF4B-D988-3254-50F7-5D90D42CAC01" name="email_ticket__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:39:09 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8D9957-B418-95F3-0023-D225DFA8D88E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="970A49AD-BB74-CACA-03F6-0D037FAC8F5E" name="email_ticket__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:39:09 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="682B5C6D-C023-9C00-ADA4-330F81BAF98E"/>
+<colUsage columnID="FE95FD31-1D50-4E2E-1DB1-CB82BD605DE9"/>
+<colUsage columnID="EC8D9957-B418-95F3-0023-D225DFA8D88E"/>
+<colUsage columnID="6838686A-3093-2CCF-6298-1B9FA6061863"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="EE236874-BE99-1238-E9A6-27F13A97E85F" name="email_ticket_email_FK">

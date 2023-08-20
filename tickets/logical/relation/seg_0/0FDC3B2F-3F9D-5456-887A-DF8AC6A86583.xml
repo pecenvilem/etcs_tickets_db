@@ -1,17 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="incident_bg" directorySegmentName="seg_0" id="0FDC3B2F-3F9D-5456-887A-DF8AC6A86583">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="bg_incident" directorySegmentName="seg_0" id="0FDC3B2F-3F9D-5456-887A-DF8AC6A86583">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-13 09:49:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
+<sourcePk>B66FEE03-1D25-21BB-85AC-20DF9893C88E</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</sourceEntity>
+<sourceEntity>41724739-347D-F93B-6074-FE776CB03251</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>41724739-347D-F93B-6074-FE776CB03251</targetEntity>
+<targetEntity>BC28D727-9C06-A9CB-279B-B65E695B2CFD</targetEntity>
 <transferable>true</transferable>
 </Relation>

@@ -18,6 +18,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="table" id="5D34E39F-B4C8-7A09-1BC8-A0B7FAD6DDAB">
@@ -148,6 +151,38 @@
 <colUsage columnID="C644B714-1960-EBE5-B842-02AE8B444EE2"/>
 <colUsage columnID="894C5C99-CB10-0579-ED26-065B7C67FCCA"/>
 <colUsage columnID="64EBA9E6-C963-4DAF-65FE-86827AE7465A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EC431DD-B112-5AE4-D499-A350ED2C9192" name="change_log__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:04:52 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D34E39F-B4C8-7A09-1BC8-A0B7FAD6DDAB"/>
+<colUsage columnID="C644B714-1960-EBE5-B842-02AE8B444EE2"/>
+<colUsage columnID="894C5C99-CB10-0579-ED26-065B7C67FCCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="413939EB-64BE-C7EB-5EFA-1DD5548D4382" name="change_log__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:04:52 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D34E39F-B4C8-7A09-1BC8-A0B7FAD6DDAB"/>
+<colUsage columnID="C644B714-1960-EBE5-B842-02AE8B444EE2"/>
+<colUsage columnID="894C5C99-CB10-0579-ED26-065B7C67FCCA"/>
+<colUsage columnID="64EBA9E6-C963-4DAF-65FE-86827AE7465A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26EE8790-957C-91E3-C236-7D17FCB86196" name="change_log__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:04:52 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC72BD88-D4AE-94FE-43EB-DFCFAA84C5FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D118E77C-E243-F3A4-0EF7-1BBEB51BEC1A" name="change_log_employee_FK">

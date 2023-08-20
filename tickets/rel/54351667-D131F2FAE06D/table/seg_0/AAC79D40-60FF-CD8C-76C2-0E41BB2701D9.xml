@@ -17,6 +17,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nid_engine" id="31CCE671-67A9-23DD-467F-36845FA31DE7">
@@ -117,6 +120,24 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CE450D5B-2C42-CF03-18E4-B2F4A93DC3E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="406A44F7-75EB-F90F-C8E9-A4E45A25A767" name="obu__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:22:51 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31CCE671-67A9-23DD-467F-36845FA31DE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B02B07C0-F0BC-9865-175C-642B78C1B1EC" name="obu__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:22:51 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01EB3006-DEFC-2E5D-99E0-47BBE21CB1AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D368713C-D1C0-6D77-81A7-00E39B0BF59B" name="obu_kmc_FK">

@@ -3,8 +3,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-06-26 11:37:47 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,8 +24,9 @@
 <createdTime>2023-08-12 19:27:33 UTC</createdTime>
 <generatorID>1936A877-B85E-D6CB-DE84-1D3EC34B0494</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>38EF6601-521A-BF45-A865-C7B4639C5939</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,8 +38,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:56 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,8 +52,9 @@
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 19:41:45 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,8 +65,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 14:52:53 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,8 +79,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,8 +93,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:40 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -100,8 +107,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:04:57 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -118,8 +126,9 @@
 <createdTime>2023-08-01 15:04:06 UTC</createdTime>
 <generatorID>5551FAA4-32AB-59BE-B1FD-4B47B57FBFE7</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>EB454245-016D-3B76-A04D-3BF27F1970C1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -132,8 +141,9 @@
 <createdTime>2023-08-01 15:11:30 UTC</createdTime>
 <generatorID>1249F474-4127-FC3C-772D-3BD81B9A642E</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>DA7178F5-B1A1-7C2F-7471-AC5D1972DC60</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -143,17 +153,31 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7778E50E-57BA-835A-D9BB-BCC1708E6BAA" name="point PK">
+<identifier id="7778E50E-57BA-835A-D9BB-BCC1708E6BAA" name="station PK">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:45:18 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>F363394D-840A-56F0-437C-197026FD6D9C</newElementsIDs>
 <usedAttributes>
 <attributeRef>F363394D-840A-56F0-437C-197026FD6D9C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F7791845-F918-FD02-F8C1-D68C51193F83" name="sr70">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 17:29:28 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
+</engineerTo>
+<newElementsIDs>8180BFC8-A613-16C1-D86F-6F0E1901ABE4</newElementsIDs>
+<usedAttributes>
+<attributeRef>8180BFC8-A613-16C1-D86F-6F0E1901ABE4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -17,6 +17,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="address" id="7930CEA5-245A-21F5-9790-1E8BE14EB82F">
@@ -57,6 +60,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="ABD5CEA5-F68F-F0EB-6363-3A6E5628788A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FA137DB-B65B-C5F9-ACF6-8C3156C2E4A4" name="address__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 10:02:30 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7930CEA5-245A-21F5-9790-1E8BE14EB82F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

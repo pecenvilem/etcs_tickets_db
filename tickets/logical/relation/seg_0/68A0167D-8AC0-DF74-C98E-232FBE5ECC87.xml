@@ -1,27 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tckt_tckt_state" directorySegmentName="seg_0" id="68A0167D-8AC0-DF74-C98E-232FBE5ECC87">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tckt_state_tckt" directorySegmentName="seg_0" id="68A0167D-8AC0-DF74-C98E-232FBE5ECC87">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 11:20:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
+<sourcePk>EAF0D877-A34A-060D-3FD4-6321B8E126EB</sourcePk>
 <identifying>false</identifying>
+<nameOnTarget>ticket_state_id</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>AF42C535-819C-1F9B-4BE3-28AFF5404D55</sourceEntity>
+<sourceEntity>A287E315-CFD8-9CF2-37F3-92D0F1829A00</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>A287E315-CFD8-9CF2-37F3-92D0F1829A00</targetEntity>
+<targetEntity>AF42C535-819C-1F9B-4BE3-28AFF5404D55</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <attribute name="change" id="51A2B47F-A934-E0EE-7226-50E50679C316">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:15:06 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +35,9 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-22 17:07:21 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C854894F-73F8-069F-3352-08CEB0B53C16" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

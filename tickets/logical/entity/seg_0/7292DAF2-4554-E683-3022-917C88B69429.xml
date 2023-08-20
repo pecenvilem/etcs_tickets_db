@@ -5,8 +5,9 @@
 <comment><![CDATA[A section of track between two notes ("tarif points").
 Can also represent station, if 'from' and 'to' atributes are identical.]]></comment>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,8 +23,9 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdTime>2023-08-12 19:25:52 UTC</createdTime>
 <generatorID>D03FB67F-3FB0-B3A4-2F40-9691A3E09236</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>38EF6601-521A-BF45-A865-C7B4639C5939</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,15 +37,16 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:44:31 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="nmber_of_tracks &gt;= 0"/>
+<implementationDef dbType="Generic Constraint" definition="number_of_tracks &gt;= 0"/>
 </checkConstraint>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
@@ -51,8 +54,9 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-17 21:36:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,8 +69,9 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-17 21:35:59 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,13 +80,30 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 </Attribute>
+<Attribute name="remark" id="3841FE55-E1BF-138B-63EE-0DD0A3E415F5">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-19 15:21:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[can be used to differenciate two different legs between two identical stations]]></commentInRDBMS>
+<ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id1" id="339EF5B2-72F3-356D-522D-24A64D17B2D8">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 19:37:07 UTC</createdTime>
 <generatorID>E731C2FB-31CB-215B-B948-C8F11D5FC1EC</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>F363394D-840A-56F0-437C-197026FD6D9C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,8 +116,9 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdTime>2023-08-12 19:37:07 UTC</createdTime>
 <generatorID>75B07655-F81E-AE5D-413D-4FB6E055A2C9</generatorID>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <referedAttribute>F363394D-840A-56F0-437C-197026FD6D9C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -109,8 +132,9 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 13:42:08 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>7F476DC9-946A-8B71-2BC4-2A2EAB55A004</newElementsIDs>

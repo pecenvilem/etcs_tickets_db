@@ -5,8 +5,9 @@
 <commentInRDBMS><![CDATA[nid_c and nid_bg combination declared as unique constraints - this requirement holds for standard operation and incidents database will not track balises which are not deployed in the field
 separate id as primary key is used to avoid the use of a composite primary key]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,13 +17,15 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>bg</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="id" id="DDFCE397-C600-EC12-C535-012494EA86BD">
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:34 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,8 +36,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:52 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,8 +57,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdTime>2023-07-21 17:02:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[16383 - Identity is unknown (only to be used for Linking information)]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,8 +79,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>Pecen</createdBy>
 <createdTime>2023-07-21 17:01:50 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -86,8 +92,9 @@ separate id as primary key is used to avoid the use of a composite primary key]]
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-12 22:05:40 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <newElementsIDs>F6B9F9E5-DD08-B231-7E60-327C632B8105,EFE64836-7CB9-39D7-7500-EF25C56B7D63</newElementsIDs>
 <usedAttributes>

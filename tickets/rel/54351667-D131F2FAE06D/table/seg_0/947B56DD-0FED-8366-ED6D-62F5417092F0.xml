@@ -50,6 +50,24 @@
 <colUsage columnID="73518904-9A26-DCD1-6A1C-64E294C19FC4"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="2B2829EB-FD6D-19D5-D28B-593A84CE112D" name="location_train__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:20:26 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7086235-2D7E-4645-1469-9FBB1F927E33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF3C2FDD-56B6-FB24-D6B1-4E0DE4D3DB0C" name="location_train__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:20:26 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73518904-9A26-DCD1-6A1C-64E294C19FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="67373B52-17C9-9B41-933C-F4BE136512A5" name="location_train_location_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

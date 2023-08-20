@@ -5,8 +5,9 @@
 <commentInRDBMS><![CDATA[an employee can have multiple email_addresses, they may be assigned to the same exchane contact
 an address can appear with multiple contacts]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +22,9 @@ an address can appear with multiple contacts]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-16 18:43:00 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,13 +35,14 @@ an address can appear with multiple contacts]]></commentInRDBMS>
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-16 18:43:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[check constraint doesn't competely ensure valid email address, but can catch most obvious violations
-if a value has to be inserted that violates the constraint use:
+if a value has to be inserted that violates the constraint, use:
 ALTER TABLE employee  DISABLE CONSTRAINT <constraint_name>;
 <do the insertion>
 ALTER TABLE employee ENABLE NOVALIDATE CONSTRAINT <constraint_name>;]]></commentInRDBMS>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,25 +53,13 @@ ALTER TABLE employee ENABLE NOVALIDATE CONSTRAINT <constraint_name>;]]></comment
 </checkConstraint>
 <ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="primary" id="FE9C9DCF-0EBF-23FD-98CC-25D84B7B0FDF">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-16 19:55:24 UTC</createdTime>
-<ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<defaultValue>1</defaultValue>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="contact_id" id="3E7F8A5B-9F53-E4B7-49F2-083E15C39D9D">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-16 18:44:09 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,8 +72,9 @@ ALTER TABLE employee ENABLE NOVALIDATE CONSTRAINT <constraint_name>;]]></comment
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-16 18:44:25 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,28 +83,15 @@ ALTER TABLE employee ENABLE NOVALIDATE CONSTRAINT <constraint_name>;]]></comment
 <dataTypeSize>512 CHAR</dataTypeSize>
 <ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="C4338C62-F1FF-84AA-EEEB-90BF489CBE7D">
-<createdBy>vilem</createdBy>
-<createdTime>2023-08-16 18:45:41 UTC</createdTime>
-<generatorID>0834C5E6-68BD-189B-C336-48EA8182A5F6</generatorID>
-<ownerDesignName>tickets</ownerDesignName>
-<engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
-</engineerTo>
-<referedAttribute>1707000C-EFC2-C5C0-B927-0C67E970EE08</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C49E3510-B298-B185-9B30-98FE2290AC2E" name="contact PK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-16 18:43:06 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -3,11 +3,13 @@
 <createdBy>Pecen</createdBy>
 <createdTime>2023-08-01 15:11:30 UTC</createdTime>
 <ownerDesignName>tickets</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="503F8645-02BB-FCEF-D596-E16541579EB0" value="true"/>
+<item key="54351667-7A39-92CB-4D51-D131F2FAE06D" value="false"/>
 </engineerTo>
 <sourcePk>5F743B14-56DD-0146-BFAA-AC4181B0A32B</sourcePk>
 <identifying>false</identifying>
+<nameOnTarget>station_state_id</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

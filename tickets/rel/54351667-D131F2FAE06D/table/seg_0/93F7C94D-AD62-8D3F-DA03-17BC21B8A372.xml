@@ -18,6 +18,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="1189B00A-09DE-F395-A363-E4C624AF2503">
@@ -88,6 +91,33 @@ ensure by table level constaint]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A9C6F06C-16EC-F09F-9F72-8E0C560401D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DCDE0F9-5E43-732A-9417-32EA1C236D37" name="department__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:37:42 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1189B00A-09DE-F395-A363-E4C624AF2503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2F1EE31-20D3-FEC1-4856-26D84CE68FEE" name="department__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:37:42 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE460EA7-CAD3-49EC-4B73-FF64E03EBC9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="280FA00E-E3FA-E38A-F560-1F77C3DC84E4" name="department__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:37:42 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="331C226B-C35B-127A-3732-20B9ED872C4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="033C3B41-9B8C-1F03-C562-8FE7DC612A9B" name="department_organization_FK">

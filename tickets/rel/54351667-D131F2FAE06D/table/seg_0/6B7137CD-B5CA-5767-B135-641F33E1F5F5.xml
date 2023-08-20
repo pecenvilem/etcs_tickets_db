@@ -18,6 +18,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="last_name" id="B567BDDA-F90D-AB9A-6AFE-8F3D6C86AA58">
@@ -102,6 +105,43 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="42B23C34-6CB7-343F-C9D7-9C6C885B5F88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6E32ED9-D191-01FD-7EF0-761D9D0CD351" name="employee__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:41:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23C2B3E-2AE5-4592-501E-5B0B0DDB5B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74367CED-CB91-40CB-7CAE-FC91E1088790" name="employee__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:41:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2732643-C35B-8F7D-F6A7-EF01B2324E92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35542472-A933-EA0F-9FBE-64510BA791D9" name="employee__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:41:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93F9B479-99CD-2523-4920-9859B98D6C4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47E94211-3473-7433-6AC9-B4196D63D7A7" name="employee__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:41:02 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93F9B479-99CD-2523-4920-9859B98D6C4D"/>
+<colUsage columnID="B23C2B3E-2AE5-4592-501E-5B0B0DDB5B31"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A5E487FB-FD9F-AF34-AF12-7B32611408FF" name="employee_department_FK">

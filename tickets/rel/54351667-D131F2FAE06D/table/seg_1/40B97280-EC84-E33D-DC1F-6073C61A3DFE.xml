@@ -67,6 +67,24 @@
 <colUsage columnID="8D76A5B2-AA25-7F40-0DE4-818000CC4545"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="28FEAE1C-F406-102D-40C4-0BFDE01DE629" name="track_incident__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:39:41 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02D1A7B-6ACA-BB98-6B2B-F78B41B951DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="855D5055-7C4B-4CAB-4B34-3B55BA31E4CD" name="track_incident__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:39:41 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D76A5B2-AA25-7F40-0DE4-818000CC4545"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="60DB02D1-9B40-66B3-252B-9EC641A337B7" name="track_incident_track_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

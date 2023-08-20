@@ -80,7 +80,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="station_location_id2" id="C5D9A7A8-A3C5-96A9-A099-3CDF15FF775E">
+<Column name="station_from_id" id="C5D9A7A8-A3C5-96A9-A099-3CDF15FF775E">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>339EF5B2-72F3-356D-522D-24A64D17B2D8</generatorID>
@@ -95,7 +95,7 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <colAssociation fkAssociation="B2A11AFB-1BE4-A8A8-91F8-FC162462038F" referredColumn="285C9896-401E-8317-25CC-9A82BB0E5271"/>
 </associations>
 </Column>
-<Column name="station_location_id" id="9CD4CE77-21A4-4CC1-0B4D-83F5E78F8BA6">
+<Column name="station_to_id" id="9CD4CE77-21A4-4CC1-0B4D-83F5E78F8BA6">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
 <generatorID>8767F652-E5D6-ED6B-5749-22F64E2F83DE</generatorID>
@@ -122,6 +122,34 @@ Can also represent station, if 'from' and 'to' atributes are identical.]]></comm
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="72BFE96A-3FA7-634B-2371-924071988E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3420DAFF-26CA-7125-4C04-81B33337DA27" name="leg__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:18:34 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5D9A7A8-A3C5-96A9-A099-3CDF15FF775E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D02070A7-2C7C-CF3A-01F6-E215A94B7767" name="leg__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:18:34 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CD4CE77-21A4-4CC1-0B4D-83F5E78F8BA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0DBBB1B-D977-B48D-18B5-D6DC36DD3AAB" name="leg__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:18:34 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5D9A7A8-A3C5-96A9-A099-3CDF15FF775E"/>
+<colUsage columnID="9CD4CE77-21A4-4CC1-0B4D-83F5E78F8BA6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F7D77B43-954A-C222-DDB4-E0C8E0BE38AB" name="leg_location_FK">

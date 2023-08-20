@@ -17,6 +17,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="name" id="E2D11B74-D374-3DF8-849D-B7096F3F6E9A">
@@ -102,6 +105,44 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EC06853B-1D48-F7FE-16B6-5D728348C37F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7981B031-A6E3-54F4-EEB2-11122AC501D1" name="feature__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:53:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2D11B74-D374-3DF8-849D-B7096F3F6E9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14589066-FC45-9B31-0E4D-141AC4153E1F" name="feature__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:53:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD482319-3077-BA15-D4FF-0628E25F30A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55E4E950-A723-368D-7A38-D0E7EE012FAB" name="feature__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:53:55 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="348EB59D-0663-9A5E-BC38-983FAE16D1F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7992E2E-1587-57FE-60CB-C7F1E0FB2C6F" name="feature__IDXv3">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:06:38 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="348EB59D-0663-9A5E-BC38-983FAE16D1F4"/>
+<colUsage columnID="2064C6E2-466B-F383-D942-57A63CFE14C0"/>
+<colUsage columnID="BD482319-3077-BA15-D4FF-0628E25F30A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F7028F3D-FD6D-B2D6-D9A1-DE1021077CA4" name="feature_feature_type_FK">

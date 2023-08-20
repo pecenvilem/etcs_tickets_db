@@ -62,6 +62,34 @@
 <colUsage columnID="D1707069-A4FE-5CC7-8160-5EE9A254DAA2"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="7249D674-9BD7-ADF2-7BC7-6CD02A62C6B7" name="emp_ticket_assigned__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:39:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F5F9316-F0B9-FF87-7472-BF2E8D7DDD02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94E072EA-C781-9AAB-FC8E-A46E6015493B" name="emp_ticket_assigned__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:39:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1707069-A4FE-5CC7-8160-5EE9A254DAA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B10D39-30BF-B122-72D3-7E717832EC3D" name="emp_ticket_assigned__IDXv2">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 19:39:45 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1707069-A4FE-5CC7-8160-5EE9A254DAA2"/>
+<colUsage columnID="4B0CB0EF-D11A-7F6C-07E7-D5559BB1FEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="BE30CE81-47DF-0CED-3C8B-9A9E0597617F" name="emp_ticket_assigned_employee_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>

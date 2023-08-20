@@ -76,6 +76,24 @@
 <colUsage columnID="034F5EA0-7381-0061-A1F3-ABA73367D16B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="B9C419CF-73B8-A0C2-4233-8FD034FAB15F" name="train_incident__IDX">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:41:24 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F76B21E3-E310-4E3B-4933-819E99D7E21D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9BC49FD-8252-A2F3-75F2-606BFD405533" name="train_incident__IDXv1">
+<createdBy>vilem</createdBy>
+<createdTime>2023-08-20 22:41:24 UTC</createdTime>
+<ownerDesignName>tickets</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="034F5EA0-7381-0061-A1F3-ABA73367D16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="C258C978-BEBC-C797-7F22-C7AFB49D1699" name="train_incident_train_FK">
 <createdBy>vilem</createdBy>
 <createdTime>2023-08-19 22:53:36 UTC</createdTime>
